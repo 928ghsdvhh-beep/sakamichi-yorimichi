@@ -6,7 +6,7 @@ import json
 import re
 import os
 
-ORIGIN=os.environ.get('SITE_URL',os.environ.get('CF_PAGES_URL','https://tsukuru-desk-note.ken47com.chatgpt.site')).rstrip('/')
+ORIGIN=os.environ.get('SITE_URL','https://sakamichi-yorimichi.pages.dev').rstrip('/')
 
 def finalize(out):
     routes=[]
