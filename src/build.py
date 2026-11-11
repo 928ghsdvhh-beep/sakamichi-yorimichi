@@ -105,5 +105,7 @@ for path in OUT.rglob('*.html'):
   text=text.replace('<section class="section wrap" id="support">','<section class="utility-links wrap"><a href="/checklist.html"><small>LIVE CHECKLIST</small><strong>次の現場、準備できた？</strong><span>12項目をチェックして保存 ↗</span></a><a href="/size-check.html"><small>SIZE CHECK</small><strong>そのケース、サイズは合う？</strong><span>グッズと収納の寸法を比較 ↗</span></a></section><section class="section wrap" id="support">')
  path.write_text(text)
 render_editorial(OUT,page)
+from purchase_check import extend as extend_purchase_check
+extend_purchase_check(OUT)
 finalize(OUT)
 print(f'Built {len(list(OUT.rglob("*.html")))} HTML pages')
