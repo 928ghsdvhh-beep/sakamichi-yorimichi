@@ -120,10 +120,10 @@ def cards(items):
 
 def official_screen():
     videos=[('乃木坂46','「君ロス」Music Video','OzhgQxSoljI','nogizaka-live-first','#8b46b1'),('櫻坂46','5th YEAR ANNIVERSARY LIVE / Digest','jteJsHAj6GE','sakurazaka-live-first','#cf547e'),('日向坂46','「イチャイチャ虫」Music Video','mgFUz_c4ToM','hinatazaka-live-first','#2498c8')]
-    content='<section class="official-screen"><div class="screen-heading"><p>SAKAMICHI ON SCREEN</p><h2>好きな坂道から、次の楽しみへ。</h2><span>公式映像と、参戦のヒント。</span></div><div class="screen-track">'
+    content='<section class="official-screen"><div class="screen-heading"><p>公式YouTube動画</p><h2>乃木坂46・櫻坂46・日向坂46の公式動画</h2><span>MV・ライブ映像をこちらで視聴できます。</span></div><div class="screen-track">'
     for name,title,vid,slug,color in videos:
-        content+=f'<article class="screen-card" style="--screen-color:{color}"><div class="screen-video"><iframe src="https://www.youtube-nocookie.com/embed/{vid}" title="{name}公式 {title}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div><div class="screen-caption"><small>{name} / OFFICIAL YouTube</small><h3>{title}</h3><a href="/notes/{slug}.html">{name}のライブ準備を読む →</a><a class="screen-original" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a></div></article>'
-    return content+'</div><p class="screen-source">各グループの公式YouTube動画を埋め込んでいます。商品写真ではありません。</p></section>'
+        content+=f'<article class="screen-card" style="--screen-color:{color}"><div class="screen-video"><iframe src="https://www.youtube-nocookie.com/embed/{vid}" title="{name}公式 {title}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div><div class="screen-caption"><small>{name} 公式チャンネル</small><h3>{title}</h3><a href="/notes/{slug}.html">{name}のライブ持ち物・注意点 →</a><a class="screen-original" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a></div></article>'
+    return content+'</div><p class="screen-source">動画提供：各グループの公式YouTubeチャンネル</p></section>'
 
 
 def render(out,page):
