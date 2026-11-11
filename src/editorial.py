@@ -117,6 +117,15 @@ OLD=[('past-goods','過去の公式グッズの探し方'),('photo-storage','生
 def cards(items):
  return '<div class="edit-cards">'+''.join(f'<a class="edit-card" href="/notes/{x["slug"]}.html"><span class="edit-thumb" data-cat="{x["cat"]}"><small>{x["group"]}</small><b>{x["cat"]}</b><span>YORIMICHI NOTE</span></span><span class="edit-card-copy"><small>{x["cat"]} ／ {DAY}公開</small><strong>{x["title"]}</strong><span>{x["desc"]}</span></span><b aria-hidden="true">↗</b></a>' for x in items)+'</div>'
 
+
+def official_screen():
+    videos=[('乃木坂46','「君ロス」Music Video','OzhgQxSoljI','nogizaka-live-first','#8b46b1'),('櫻坂46','5th YEAR ANNIVERSARY LIVE / Digest','jteJsHAj6GE','sakurazaka-live-first','#cf547e'),('日向坂46','「イチャイチャ虫」Music Video','mgFUz_c4ToM','hinatazaka-live-first','#2498c8')]
+    content='<section class="official-screen"><div class="screen-heading"><p>SAKAMICHI ON SCREEN</p><h2>好きな坂道から、次の楽しみへ。</h2><span>公式映像と、参戦のヒント。</span></div><div class="screen-track">'
+    for name,title,vid,slug,color in videos:
+        content+=f'<article class="screen-card" style="--screen-color:{color}"><div class="screen-video"><iframe src="https://www.youtube-nocookie.com/embed/{vid}" title="{name}公式 {title}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div><div class="screen-caption"><small>{name} / OFFICIAL YouTube</small><h3>{title}</h3><a href="/notes/{slug}.html">{name}のライブ準備を読む →</a><a class="screen-original" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a></div></article>'
+    return content+'</div><p class="screen-source">各グループの公式YouTube動画を埋め込んでいます。商品写真ではありません。</p></section>'
+
+
 def render(out,page):
  byslug={x['slug']:x for x in ARTICLES}
  for x in ARTICLES:
@@ -128,14 +137,15 @@ def render(out,page):
  hub='<div class="wrap edit-hub"><p class="eyebrow">SAKAMICHI FAN JOURNAL</p><h1>次の楽しみを、見つけよう。</h1><p class="lead">イベントの予定から、推しに会う日の準備まで。<br>坂道ファンのための読みものを集めました。</p><nav class="edit-tabs" aria-label="記事カテゴリー">'+''.join(f'<a href="#cat-{i}">{cat}</a>' for i,cat in enumerate(CATS))+'</nav>'
  for i,cat in enumerate(CATS):hub+=f'<section id="cat-{i}" class="edit-category"><h2>{cat}</h2>'+cards([x for x in ARTICLES if x['cat']==cat])+'</section>'
  hub+='<section class="edit-category"><h2>これまでの読みもの</h2>'+ul([link(slug,title) for slug,title in OLD])+'</section></div>'
+ hub=hub.replace('<nav class="edit-tabs"',official_screen()+'<nav class="edit-tabs"',1)
  (out/'articles.html').write_text(page('坂道のイベント・収納・ライブ・ミーグリ記事一覧',hub,'坂道ファン向け22記事。乃木坂・櫻坂・日向坂のイベント情報、収納、ライブ用品、初参戦とミーグリ準備をカテゴリー別に。'))
  # Add discoverable entrances without replacing the existing nine articles.
  for path in out.rglob('*.html'):
   if re.fullmatch(r'google[0-9a-f]+\.html',path.name):continue
-  text=path.read_text().replace('</head>','<link rel="stylesheet" href="/editorial.css?v=2"></head>')
+  text=path.read_text().replace('</head>','<link rel="stylesheet" href="/editorial.css?v=3"></head>')
   text=text.replace('<a href="/#notes">読みもの</a>','<a href="/notes/events-2026-2027.html">イベント</a><a href="/articles.html">記事一覧</a>')
   if path==out/'index.html':
-   featured='<section class="wrap edit-home"><div class="section-heading"><div><p class="eyebrow">NEW / FAN JOURNAL</p><h2>推し活の「知りたい」を、ここから。</h2></div><a href="/articles.html">全22記事を見る →</a></div>'+cards([byslug[s] for s in ['events-2026-2027','news-20261111','storage-picks','live-items-picks','meet-greet-first','nogizaka-43-meet']])+'<nav class="edit-tabs" aria-label="ライブ準備の記事">'+''.join(link(s,t) for s,t in [('nogizaka-live-first','乃木坂ライブ'),('sakurazaka-live-first','櫻坂ライブ'),('hinatazaka-live-first','日向坂ライブ'),('keyaki-goods-care','欅坂グッズ')])+'</nav></section>'
+   featured=official_screen()+'<section class="wrap edit-home"><div class="section-heading"><div><p class="eyebrow">NEW / FAN JOURNAL</p><h2>推し活の「知りたい」を、ここから。</h2></div><a href="/articles.html">全22記事を見る →</a></div>'+cards([byslug[s] for s in ['events-2026-2027','news-20261111','storage-picks','live-items-picks','meet-greet-first','nogizaka-43-meet']])+'<nav class="edit-tabs" aria-label="ライブ準備の記事">'+''.join(link(s,t) for s,t in [('nogizaka-live-first','乃木坂ライブ'),('sakurazaka-live-first','櫻坂ライブ'),('hinatazaka-live-first','日向坂ライブ'),('keyaki-goods-care','欅坂グッズ')])+'</nav></section>'
    text=text.replace('<section class="section wrap" id="archive">',featured+'<section class="section wrap" id="archive">',1)
   if path==out/'notes.html':
    text=text.replace('<main id="main">','<main id="main"><aside class="wrap edit-note-banner"><strong>新着13記事を追加しました</strong><a href="/articles.html">イベント・収納・ライブ・ミーグリの記事へ →</a></aside>')
@@ -144,6 +154,8 @@ def render(out,page):
   if group in names:
    picks=[x for x in ARTICLES if x['group']==names[group]]
    text=text.replace('</main>','<section class="wrap edit-home"><h2>'+names[group]+'の準備・読みもの</h2>'+cards(picks)+'</section></main>')
+  if path==out/'privacy.html':
+   text=text.replace('</article>','<h2>埋め込み動画について</h2><p>一部ページで各グループの公式YouTube動画をプライバシー強化モードで埋め込んでいます。再生などの操作ではYouTubeの利用条件とプライバシーポリシーが適用されます。</p></article>')
   path.write_text(text)
  (out/'editorial.css').write_text(CSS)
 
@@ -192,6 +204,43 @@ header nav[aria-label="メイン"]>a{flex:0 0 auto;font-size:11px;line-height:1.
 .edit-breadcrumb{display:block!important;text-align:left;line-height:1.8;padding:16px 0}
 footer{padding:25px 18px!important}
 footer p{font-size:9px;line-height:1.8}
+}
+
+
+/* Actual official footage, with readable editorial hierarchy. */
+.edit-hub>.eyebrow{color:#8d42a8;letter-spacing:.18em}
+.edit-hub>h1{font-size:42px;font-weight:850;letter-spacing:-.045em}
+.official-screen{grid-column:1/-1;background:#302039;color:#fff;border-radius:12px;padding:25px;margin:20px 0 25px;min-width:0}
+.fan-home main>.official-screen{max-width:1116px;margin:25px auto}
+.screen-heading{margin-bottom:17px}
+.screen-heading>p{font-size:9px;letter-spacing:.2em;color:#e3bceb;margin:0 0 8px;font-weight:700}
+.screen-heading h2{font-size:23px;line-height:1.6;margin:0;color:#fff;font-family:inherit;font-weight:750}
+.screen-heading>span{font-size:11px;color:#cfbbd7}
+.screen-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.screen-card{background:#fff;color:#34203e;border-radius:8px;overflow:hidden;min-width:0;border-bottom:4px solid var(--screen-color)}
+.screen-video{position:relative;aspect-ratio:16/9;background:#18141c}
+.screen-video iframe{border:0;position:absolute;inset:0;width:100%;height:100%}
+.screen-caption{padding:13px}
+.screen-caption>small{font-size:9px;font-weight:700;color:var(--screen-color)}
+.screen-caption h3{font-size:14px;line-height:1.6;min-height:44px;margin:6px 0 10px}
+.screen-caption>a{font-size:11px;font-weight:700;color:var(--screen-color);display:block}
+.screen-caption>.screen-original{font-size:9px;font-weight:400;color:#8b7d92;margin-top:7px}
+.screen-source{font-size:9px;color:#c4b1cd;margin:15px 0 0}
+.edit-hub>.edit-category>h2{border-bottom:2px solid #dbc5e9}
+@media(max-width:700px){
+.edit-hub>h1{font-size:29px;font-weight:850}
+.official-screen{margin:21px -6px 23px;padding:18px 12px 14px;border-radius:9px}
+.screen-heading{padding:0 4px;margin-bottom:13px}
+.screen-heading h2{font-size:20px;line-height:1.5;letter-spacing:-.025em}
+.screen-heading>span{font-size:10px}
+.screen-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.screen-card{flex:0 0 88%;scroll-snap-align:start}
+.screen-caption{padding:12px 14px}
+.screen-caption h3{font-size:15px;min-height:0;margin:5px 0 10px}
+.screen-caption>a{font-size:12px}
+.screen-source{font-size:8px;line-height:1.7;padding:0 4px}
+.edit-card{border:0;border-bottom:1px solid #e9dfef;border-radius:0;background:transparent;padding:13px 0!important}
+.edit-thumb{border-radius:7px;background:#eadcf3}
 }
 
 '''
