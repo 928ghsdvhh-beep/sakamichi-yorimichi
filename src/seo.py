@@ -12,7 +12,7 @@ def finalize(out):
     routes=[]
     for path in sorted(out.rglob('*.html')):
         relative=path.relative_to(out).as_posix()
-        if relative.startswith('_qa'): continue
+        if relative.startswith('_qa') or re.fullmatch(r'google[0-9a-f]+\.html',relative): continue
         url=ORIGIN+('/' if relative=='index.html' else '/'+quote(relative))
         html=path.read_text()
         title=unescape(re.search(r'<title>(.*?)</title>',html).group(1))
