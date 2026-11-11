@@ -132,7 +132,7 @@ def render(out,page):
  # Add discoverable entrances without replacing the existing nine articles.
  for path in out.rglob('*.html'):
   if re.fullmatch(r'google[0-9a-f]+\.html',path.name):continue
-  text=path.read_text().replace('</head>','<link rel="stylesheet" href="/editorial.css?v=1"></head>')
+  text=path.read_text().replace('</head>','<link rel="stylesheet" href="/editorial.css?v=2"></head>')
   text=text.replace('<a href="/#notes">読みもの</a>','<a href="/notes/events-2026-2027.html">イベント</a><a href="/articles.html">記事一覧</a>')
   if path==out/'index.html':
    featured='<section class="wrap edit-home"><div class="section-heading"><div><p class="eyebrow">NEW / FAN JOURNAL</p><h2>推し活の「知りたい」を、ここから。</h2></div><a href="/articles.html">全22記事を見る →</a></div>'+cards([byslug[s] for s in ['events-2026-2027','news-20261111','storage-picks','live-items-picks','meet-greet-first','nogizaka-43-meet']])+'<nav class="edit-tabs" aria-label="ライブ準備の記事">'+''.join(link(s,t) for s,t in [('nogizaka-live-first','乃木坂ライブ'),('sakurazaka-live-first','櫻坂ライブ'),('hinatazaka-live-first','日向坂ライブ'),('keyaki-goods-care','欅坂グッズ')])+'</nav></section>'
@@ -150,4 +150,48 @@ def render(out,page):
 CSS='''
 .edit-hub{padding-top:35px;padding-bottom:45px;display:grid;grid-template-columns:1fr 1fr;column-gap:22px}.edit-hub>p,.edit-hub>h1,.edit-hub>nav{grid-column:1/-1}.edit-hub>.edit-category{margin-bottom:18px;padding-top:8px}.edit-hub>.edit-category>.edit-cards{grid-template-columns:1fr}.edit-hub>#cat-4,.edit-hub>#cat-5,.edit-hub>.edit-category:last-child{grid-column:1/-1}.edit-hub>#cat-4>.edit-cards,.edit-hub>#cat-5>.edit-cards{grid-template-columns:1fr 1fr}.edit-hub>h1{font-size:clamp(27px,4vw,40px);line-height:1.6}.edit-tabs{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}.edit-tabs>a{background:#f2eaf8;border:1px solid #e6d8ef;padding:9px 14px;border-radius:5px;font-size:12px;color:#7c519b}.edit-category{padding-top:22px;margin-bottom:32px;scroll-margin-top:20px}.edit-category>h2{font-size:24px;border-bottom:1px solid #e8deed;padding-bottom:13px}.edit-cards{display:grid;grid-template-columns:1fr 1fr;gap:13px}.edit-card{display:grid;grid-template-columns:88px 1fr 12px;gap:15px;background:#fff;border:1px solid #e7ddec;border-radius:8px;padding:14px;align-items:center}.edit-card:hover{border-color:#b998cf;box-shadow:0 3px 12px #794d9110}.edit-thumb{height:105px;border-radius:5px;background:#eee3f7;color:#8c5aab;display:flex;flex-direction:column;justify-content:center;text-align:center;border-top:4px solid #9b74b8;padding:7px}.edit-thumb[data-cat="ミーグリ"]{background:#fbe8f0;color:#b7688b;border-color:#d88eaf}.edit-thumb[data-cat="イベント"],.edit-thumb[data-cat="最新情報"]{background:#e8f4fb;color:#518eaa;border-color:#80b5cb}.edit-thumb[data-cat="ライブアドバイス"],.edit-thumb[data-cat="ライブ用品"]{background:#edf4ec;color:#5b8a65;border-color:#88b090}.edit-thumb small{font-size:9px}.edit-thumb b{font-size:14px;line-height:1.5;margin:10px 0}.edit-thumb>span{font-size:6px;letter-spacing:.06em}.edit-card-copy{min-width:0}.edit-card-copy>small{font-size:9px;color:#a28aaf}.edit-card-copy>strong{display:block;font-size:16px;line-height:1.65;margin:6px 0;color:#4c375b}.edit-card-copy>span{font-size:11px;color:#8c7e94;line-height:1.8;display:block}.edit-card>b{color:#ae8dc3;font-size:12px}.edit-home{padding-top:25px;padding-bottom:32px}.edit-home .section-heading h2{font-size:26px!important}.edit-home .section-heading>a{font-size:12px;color:#845c9d}.edit-breadcrumb{font-size:11px;color:#9c85a9;padding:22px 0}.edit-article .prose{max-width:800px;padding-top:0}.edit-article-heading{padding:25px 26px;border:1px solid #e7d9ef;border-left:5px solid #a47bbd;background:#f6f0fa;border-radius:8px;margin-bottom:25px}.edit-article-heading h1{font-size:clamp(25px,3vw,35px);line-height:1.6;margin:10px 0 15px}.edit-date{font-size:11px!important;color:#9b81aa}.edit-article .lead{font-size:16px;line-height:2.1}.edit-article section{scroll-margin-top:25px}.edit-article section>h2{font-size:23px;line-height:1.6;margin-top:38px;padding-left:14px;border-left:4px solid #bb9ccf}.edit-article p,.edit-article li{line-height:2;font-size:15px}.edit-toc{display:block!important;background:#faf7fc;border:1px solid #e9dfef;border-radius:7px;padding:20px 23px;margin:26px 0}.edit-toc>strong{font-size:13px}.edit-toc ol{margin:9px 0 0;padding-left:22px}.edit-toc li{font-size:13px;padding:3px 0}.edit-table{overflow-x:auto;margin:22px 0;border:1px solid #e4d8ec;border-radius:7px}.edit-table table{border-collapse:collapse;width:100%;min-width:470px;margin:0;font-size:13px}.edit-table th{background:#eee4f5;color:#735286;text-align:left}.edit-table td,.edit-table th{padding:13px 14px;border-bottom:1px solid #ece4f1;vertical-align:top;line-height:1.8}.edit-table tr:last-child td{border-bottom:0}.edit-table td{background:#fff}.edit-table td:first-child{font-weight:600}.edit-sources{background:#f8f6fa;border:1px solid #e9e1ed;border-radius:7px;padding:18px 22px;margin-top:35px}.edit-sources h2{font-size:18px!important;margin:0 0 10px!important}.edit-sources p,.edit-sources li{font-size:12px!important}.edit-related{padding-bottom:15px}.edit-related li{margin-bottom:9px}.edit-note-banner{background:#f0e8f7;border-radius:8px;padding:18px 24px;margin-top:24px;display:flex;gap:18px;flex-wrap:wrap;font-size:13px}.edit-note-banner a{color:#865b9d}
 @media(max-width:700px){.edit-hub{display:block}.edit-hub>#cat-4>.edit-cards,.edit-hub>#cat-5>.edit-cards{grid-template-columns:1fr}.edit-cards{grid-template-columns:1fr}.edit-card{grid-template-columns:74px 1fr 10px;gap:12px;padding:12px}.edit-thumb{height:90px}.edit-thumb b{font-size:12px;margin:8px 0}.edit-card-copy>strong{font-size:15px;line-height:1.65}.edit-card-copy>small{font-size:8px}.edit-card-copy>span{font-size:10px}.edit-home .section-heading{display:block}.edit-home .section-heading h2{font-size:22px!important}.edit-home .section-heading>a{display:inline-block;margin-top:8px}.edit-hub{padding-top:25px}.edit-tabs>a{font-size:11px;padding:8px 10px}.edit-tabs{gap:7px}.edit-article-heading{padding:20px 18px}.edit-article-heading h1{font-size:26px}.edit-article .lead,.edit-article p,.edit-article li{font-size:14px}.edit-article section>h2{font-size:21px}.edit-toc{padding:16px}.edit-toc li{font-size:12px}.edit-breadcrumb{font-size:10px}.edit-sources{padding:16px}.edit-note-banner{font-size:12px}}
+
+/* Consistent list rhythm and touch layout on narrow screens. */
+.edit-hub{row-gap:0}
+.edit-hub>h1{margin:8px 0 14px}
+.edit-hub>.lead{margin:0 0 6px}
+.edit-hub>.edit-tabs{justify-content:flex-start;flex:none;margin:18px 0 20px}
+.edit-hub>.edit-category{margin:0 0 24px;padding-top:0}
+.edit-category>h2{margin:0 0 14px;padding:0 0 10px}
+.edit-card{align-items:center;min-height:132px}
+.edit-card-copy>strong{font-family:inherit;font-weight:700}
+.edit-card-copy>span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.edit-card-copy>small{display:block;line-height:1.5}
+.edit-category:last-child>ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 20px}
+.edit-category:last-child>ul>li{margin:0;border-bottom:1px solid #e9e1ee;padding:10px 0;font-size:13px}
+@media(max-width:700px){
+header{padding:16px 18px!important}
+header .brand{font-size:22px}
+header nav[aria-label="メイン"]{display:flex!important;flex-wrap:nowrap!important;justify-content:flex-start!important;gap:20px!important;overflow-x:auto;white-space:nowrap;margin-top:14px!important;padding:0 0 6px!important;scrollbar-width:thin}
+header nav[aria-label="メイン"]>a{flex:0 0 auto;font-size:11px;line-height:1.5}
+.edit-hub{padding:24px 18px 32px!important}
+.edit-hub>.eyebrow{font-size:9px;margin-bottom:10px}
+.edit-hub>h1{font-size:26px;letter-spacing:-.025em;line-height:1.5;margin:0 0 14px}
+.edit-hub>.lead{font-size:13px;line-height:1.85;margin:0}
+.edit-hub>.edit-tabs{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:18px 0 26px;justify-content:stretch}
+.edit-hub>.edit-tabs>a{font-size:11px;padding:9px 3px;line-height:1.5;text-align:center;border-radius:5px;white-space:nowrap}
+.edit-hub>.edit-category{margin:0 0 25px;padding:0}
+.edit-category>h2{font-size:19px;line-height:1.5;padding-bottom:9px;margin:0 0 12px}
+.edit-cards{gap:9px}
+.edit-card{grid-template-columns:64px minmax(0,1fr)!important;gap:12px!important;padding:12px!important;min-height:122px;border-radius:7px}
+.edit-card>b{display:none}
+.edit-thumb{width:64px;height:76px;min-height:0;padding:5px;border-top-width:3px}
+.edit-thumb small{font-size:8px;line-height:1.5}
+.edit-thumb b{font-size:10px;line-height:1.5;margin:7px 0}
+.edit-thumb>span{font-size:5px;letter-spacing:0;white-space:nowrap}
+.edit-card-copy>small{font-size:9px;line-height:1.4;color:#8e789a}
+.edit-card-copy>strong{font-size:14px!important;line-height:1.6;margin:5px 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.edit-card-copy>span{font-size:11px!important;line-height:1.65}
+.edit-category:last-child>ul{display:block}
+.edit-category:last-child>ul>li{font-size:12px;line-height:1.7;padding:12px 0}
+.edit-breadcrumb{display:block!important;text-align:left;line-height:1.8;padding:16px 0}
+footer{padding:25px 18px!important}
+footer p{font-size:9px;line-height:1.8}
+}
+
 '''
