@@ -39,6 +39,10 @@ def finalize(out):
         notice='<aside class="affiliate-notice" aria-label="広告について"><span>広告</span> Amazonのアソシエイトとして、坂道よりみちは適格販売により収入を得ています。</aside>'
         html=html.replace('</header>','</header>'+notice)
         html=re.sub(r'<div class="ad-note wrap">.*?</div>','',html,count=1)
+        analytics="<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"867a7bd7d9324e2386b9e7bfaac0c4e5\"}'></script><!-- End Cloudflare Web Analytics -->"
+        html=html.replace('</body>',analytics+'</body>')
+        if relative=='privacy.html':
+            html=html.replace('本サイト独自のアクセス解析、広告配信スクリプト、会員登録、お問い合わせフォームは設置していません。ホスティングサービスが運用上のアクセス情報や認証に関する情報を処理する場合があります。','当サイトでは、閲覧状況や表示速度の把握とサイト改善のためCloudflare Web Analyticsを利用します。会員登録、お問い合わせフォームは設置していません。ホスティングサービスが運用上のアクセス情報を処理する場合があります。')
         path.write_text(html)
     xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     xml+=''.join('<url><loc>'+escape(url)+'</loc></url>\n' for url in routes)+'</urlset>\n'
