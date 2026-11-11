@@ -6,6 +6,7 @@ import json
 import re
 import os
 from fan_design import redesign
+from search_metadata import apply as normalize_search_metadata
 
 ORIGIN=os.environ.get('SITE_URL','https://sakamichi-yorimichi.pages.dev').rstrip('/')
 
@@ -55,6 +56,7 @@ def finalize(out):
     xml+=''.join('<url><loc>'+escape(url)+'</loc></url>\n' for url in routes)+'</urlset>\n'
     (out/'sitemap.xml').write_text(xml)
     (out/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n')
+    normalize_search_metadata(out, ORIGIN, '坂道よりみち', lambda route: route.startswith('notes/'))
     make_share_card(out/'assets'/'share-card.png')
     print(f'Metadata ready for {len(routes)} indexable routes')
 
