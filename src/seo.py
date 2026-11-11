@@ -11,12 +11,17 @@ ORIGIN=os.environ.get('SITE_URL','https://sakamichi-yorimichi.pages.dev').rstrip
 
 def finalize(out):
     redesign(out)
+    (out/'yorimichi-icon.svg').write_text("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><title>坂道よりみち</title><path fill=\"#8346ad\" d=\"M7 56 47 8h12L19 56Z\"/><path fill=\"#dd729e\" d=\"m28 45 10-12h21L49 45Z\"/><path fill=\"#57b4d4\" d=\"M29 31 17 17H6l17 21Z\"/></svg>")
+    (out/'favicon.svg').write_text("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><title>坂道よりみち</title><path fill=\"#8346ad\" d=\"M7 56 47 8h12L19 56Z\"/><path fill=\"#dd729e\" d=\"m28 45 10-12h21L49 45Z\"/><path fill=\"#57b4d4\" d=\"M29 31 17 17H6l17 21Z\"/></svg>")
     routes=[]
     for path in sorted(out.rglob('*.html')):
         relative=path.relative_to(out).as_posix()
         if relative.startswith('_qa') or re.fullmatch(r'google[0-9a-f]+\.html',relative): continue
         url=ORIGIN+('/' if relative=='index.html' else '/'+quote(relative))
         html=path.read_text()
+        html=html.replace('<span class="brand-mark">↗</span>','<span class="brand-mark yorimichi-mark"><img src="/yorimichi-icon.svg?v=1" width="40" height="40" alt="" aria-hidden="true"></span>')
+        html=html.replace('href="/favicon.svg"','href="/favicon.svg?v=2"')
+        html=html.replace('</head>','<style>.brand-mark.yorimichi-mark{display:inline-flex;align-items:center;justify-content:center;flex:0 0 40px;width:40px;height:40px;background:transparent!important;border-radius:0!important;transform:none!important}.yorimichi-mark img{display:block;width:100%;height:100%}@media(max-width:700px){.brand-mark.yorimichi-mark{flex-basis:34px;width:34px;height:34px}}</style></head>')
         title=unescape(re.search(r'<title>(.*?)</title>',html).group(1))
         desc=unescape(re.search(r'<meta name="description" content="([^"]*)"',html).group(1))
         metadata=(f'<link rel="canonical" href="{url}">'
