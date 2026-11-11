@@ -5,10 +5,12 @@ from urllib.parse import quote
 import json
 import re
 import os
+from fan_design import redesign
 
 ORIGIN=os.environ.get('SITE_URL','https://sakamichi-yorimichi.pages.dev').rstrip('/')
 
 def finalize(out):
+    redesign(out)
     routes=[]
     for path in sorted(out.rglob('*.html')):
         relative=path.relative_to(out).as_posix()
