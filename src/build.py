@@ -107,5 +107,9 @@ for path in OUT.rglob('*.html'):
 render_editorial(OUT,page)
 from purchase_check import extend as extend_purchase_check
 extend_purchase_check(OUT)
+from monetization import apply as improve_monetization
+improve_monetization(OUT)
 finalize(OUT)
+from article_quality import apply as improve_article_quality
+improve_article_quality(OUT)
 print(f'Built {len(list(OUT.rglob("*.html")))} HTML pages')

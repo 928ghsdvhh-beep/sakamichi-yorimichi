@@ -1,0 +1,2360 @@
+{
+  "note": "Local Chromium; external images, ads and analytics blocked. This verifies layout, not live network speed or affiliate attribution.",
+  "viewports": [
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "about.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "about.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "about.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "index.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 295.671875
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-video",
+          "width": 295.671875
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-caption",
+          "width": 295.671875
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "width": 93.40625
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "width": 267.671875
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "width": 267.671875
+        },
+        {
+          "tag": "A",
+          "cls": "screen-original",
+          "width": 267.671875
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 295.671875
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "index.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 322.078125
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-video",
+          "width": 322.078125
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-caption",
+          "width": 322.078125
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "width": 93.40625
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "width": 294.078125
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "width": 294.078125
+        },
+        {
+          "tag": "A",
+          "cls": "screen-original",
+          "width": 294.078125
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 322.078125
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "index.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 155.328125
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 153.734375
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 155.328125
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 155.328125
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 153.734375
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 620
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 155.328125
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "404.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "404.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "404.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "privacy.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "privacy.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "privacy.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "articles.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 274.546875
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-video",
+          "width": 274.546875
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-caption",
+          "width": 274.546875
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "width": 93.40625
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "width": 246.546875
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "width": 246.546875
+        },
+        {
+          "tag": "A",
+          "cls": "screen-original",
+          "width": 246.546875
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 274.546875
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "articles.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 300.953125
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-video",
+          "width": 300.953125
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-caption",
+          "width": 300.953125
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "width": 93.40625
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "width": 272.953125
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "width": 272.953125
+        },
+        {
+          "tag": "A",
+          "cls": "screen-original",
+          "width": 272.953125
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "screen-card",
+          "width": 300.953125
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "articles.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "size-check.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "size-check.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "size-check.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "checklist.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "checklist.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "checklist.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-towel25.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-towel25.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-towel25.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-photo-holder25.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-photo-holder25.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-photo-holder25.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-acsta24.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-acsta24.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-acsta24.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-charm24.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-charm24.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-charm24.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-tour-towel24.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-tour-towel24.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-tour-towel24.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-photo-holder24.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-photo-holder24.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-photo-holder24.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-summer24.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-summer24.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/nogi-summer24.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-photo25.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-photo25.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-photo25.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-member-pen2.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-member-pen2.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/sakura-member-pen2.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-suzuka-holder25.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-suzuka-holder25.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-suzuka-holder25.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-acsta25.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-acsta25.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-acsta25.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/keyaki-pen18.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/keyaki-pen18.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/keyaki-pen18.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-mini-nobori25.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-mini-nobori25.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "goods/hinata-mini-nobori25.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/kenko-8x21.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/kenko-8x21.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/kenko-8x21.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/favluv-regular.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/favluv-regular.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/favluv-regular.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/favluv-mini.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/favluv-mini.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/favluv-mini.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/heiko-l-sleeve.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/heiko-l-sleeve.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "tools/heiko-l-sleeve.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/keyakizaka.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/keyakizaka.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/keyakizaka.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/hinatazaka.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/hinatazaka.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/hinatazaka.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/sakurazaka.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/sakurazaka.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/sakurazaka.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/nogizaka.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/nogizaka.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/nogizaka.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/aobazaka.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/aobazaka.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "groups/aobazaka.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/events-2026-2027.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 190.859375
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 121.640625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 190.859375
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/events-2026-2027.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 121.640625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 121.640625
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "width": 90.75
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/events-2026-2027.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/online-meet-setup.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/online-meet-setup.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/online-meet-setup.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/live-items-picks.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 184.15625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 184.15625
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/live-items-picks.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 184.15625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 184.15625
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/live-items-picks.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/past-goods.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/past-goods.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/past-goods.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/keyaki-goods-care.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/keyaki-goods-care.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/keyaki-goods-care.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/photo-storage.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/photo-storage.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/photo-storage.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/meet-talk-topics.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 360
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 360
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/meet-talk-topics.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 360
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 360
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/meet-talk-topics.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/nogizaka-43-meet.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 329.34375
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 329.34375
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/nogizaka-43-meet.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 329.34375
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 329.34375
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/nogizaka-43-meet.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/storage-picks.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 183.75
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 183.75
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/storage-picks.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 183.75
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 183.75
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/storage-picks.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/meet-greet-first.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 185.515625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 185.515625
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/meet-greet-first.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 185.515625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 185.515625
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/meet-greet-first.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/nogizaka-live-first.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/nogizaka-live-first.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/nogizaka-live-first.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/buying-check.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "CAPTION",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 244.984375
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 244.984375
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/buying-check.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "CAPTION",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 244.984375
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 560
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 244.984375
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/buying-check.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/acsta-carry.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/acsta-carry.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/acsta-carry.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/sakura-6th-prep.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/sakura-6th-prep.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/sakura-6th-prep.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/photo-sleeves.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 540
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 212.53125
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 169.796875
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 212.53125
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/photo-sleeves.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 540
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 169.796875
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 539
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 169.796875
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 539
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/photo-sleeves.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/real-meet-prep.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 326.71875
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 326.71875
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/real-meet-prep.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 326.71875
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 326.71875
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/real-meet-prep.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/binoculars.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/binoculars.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/binoculars.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/sakurazaka-live-first.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/sakurazaka-live-first.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/sakurazaka-live-first.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/rain-kit.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/rain-kit.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/rain-kit.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/hinatazaka-live-first.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 140.40625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 140.40625
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/hinatazaka-live-first.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "width": 140.40625
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "width": 140.40625
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "width": 470
+        }
+      ],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/hinatazaka-live-first.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/news-20261111.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/news-20261111.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/news-20261111.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/live-kit.html",
+      "width": 360,
+      "scrollWidth": 360,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/live-kit.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "images": 0
+    },
+    {
+      "repo": "sakamichi-yorimichi",
+      "path": "notes/live-kit.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "images": 0
+    }
+  ],
+  "smoke": [
+    {
+      "site": "sakamichi-yorimichi",
+      "test": "収納サイズ差の計算",
+      "pass": true
+    },
+    {
+      "site": "sakamichi-yorimichi",
+      "test": "チェック状態の保存・再読込・リセット",
+      "pass": true
+    },
+    {
+      "site": "sakamichi-yorimichi",
+      "test": "グループ絞り込み",
+      "pass": true
+    }
+  ]
+}

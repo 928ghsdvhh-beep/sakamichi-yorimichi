@@ -1,0 +1,1082 @@
+[
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "about.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/about",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/about",
+    "status": 200,
+    "bytes": 6117,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XFfWTNesHlMCaZAJWTygqyvJilPwvzo7MnPChp5cy%2BBoXCb88aYfjFLwx9TnFh4ldZYn%2FU6t9LUloEBmNo9QtdecIYYgr%2F7yOMkITC7loIQPYPS%2BApOI1ZqMYoIBJVdi4%2FdbgAo48va2ByJK6oRJpA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7ba0968ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "313",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "index.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/",
+    "status": 200,
+    "bytes": 37438,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jD3VfSE5w3PHZwuD3ELHXFCBiYvh%2FU27yUAA1ZWHDTwdFl08Vv099U8MnFLiOFAcZEmov2k9%2FVAmA03tq235cfRY%2FgaLmsV9svUaBXyyUXMN9lvu0nzsO3tQjuCSpPOInQoGq%2Fwo0yv1Rhg4hDpgEg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7ba0973ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "287",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "tools.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/tools",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/tools",
+    "status": 200,
+    "bytes": 9551,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Uu6XY8O24%2BiSphbMUNITbNfTeitrMA7oqKuWPuzQ2jUNQZNqH037tvvLPW0CkLIWJvu1UEfk%2FrW%2FGLdUIyoJi68L3Py1tX2nLz9k%2BPO7saEc9UUvKcrYPL1RAvYlCbUrs1PgxtK1kmqo8X%2BAcISRLQ%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b9be45acd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "301",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes",
+    "status": 200,
+    "bytes": 7578,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=geP8rLEhWlHc0pQlZesjZfP7WyquEW0bxuiM9ax5AvsHgQkZp7XG%2BLiZCsNrwLx2iLkumBgeNYB2fM39YqJ2%2FnrROuPxac3C7Yt6Haowh7Y%2FeaYEpYy6AYYsrgayYl6KBc19%2Bfe3LiCJf3vt1XsH%2FA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b98dac179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "301",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "privacy.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/privacy",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/privacy",
+    "status": 200,
+    "bytes": 6542,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8cu6j4ZLcz0OqSE9ci7etHWbtihP8c1wfZF%2BYUk5i0cNqyfhsOTALgl2j9gX24%2BnOwKziKY4JUIUpnAXTWLeDg7UVYNNFRRUVEzxCmH3EGt1r9i4Yd0YoK9Rx4k6pjiNen5FmY2R7eSL5LLbT2RMrw%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b9be3aacd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "421",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "size-check.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/size-check",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/size-check",
+    "status": 200,
+    "bytes": 6275,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NdOb2MGEukMhbDIuTfg1pnh2RF3AE6x6Q%2F%2B6xPAPY8OoBiEz2YdN6eaMNpvKkAa4oRoxtt%2BPm90WJ8udA8gCgWm9p3MmHKSpn1crymdLoMhWytXREBDXf8RRtpqBdox4XQZVvOSpyHkOnxggmm1sww%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7ba0967ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "324",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "checklist.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/checklist",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/checklist",
+    "status": 200,
+    "bytes": 7026,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zeEYNzVWRJMu%2FxYTDsyVfelNIe4bknHAFhYCM7eJGe7SJLS2WG4VT8YC6Lmo7dJ3ksG%2B83l%2Bz%2FbJEhMIz%2FlvFZD2Fg3v6HkzHzgvLD1KkN6pU2eATtaGNUErM%2F%2B8c0v07LVA62vccumnkpuCP2SKlA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7ba0971ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "348",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/hinata-towel25.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-towel25",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-towel25",
+    "status": 200,
+    "bytes": 7051,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vfpF%2BEMpjPlXomgHBBUBQStim%2FDLhCjNG5Nnrg0VYnDWO44jMHRlCSkqQq1g2IEztzYQwGOd5j8V%2BQGHNiWcciG9t7OY%2BafZMcBwkZnzi2CYihMFweJCwop0fGlskrsc7eiimDnTUJk92dqgFDMhKg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b98dae179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "423",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/nogi-photo-holder25.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-photo-holder25",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-photo-holder25",
+    "status": 200,
+    "bytes": 7108,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zeTE8emdZZwV555mF1hG0sph8AFNEOMRKrgqIe9zUVpSvFlR10S9Yts4Xuw4l6c2akUizsTcse4dEefdaXpgK9wo8yPG0g%2BKKj%2FTbLOSQ26J%2Fv8N4ln5QGVwm%2Fw%2FpMvNeDPQHo3Qo8070%2FFzBu43ew%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b9be3eacd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "487",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/sakura-acsta24.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/sakura-acsta24",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/sakura-acsta24",
+    "status": 200,
+    "bytes": 7094,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XICZ%2BrLugRzKUrSBxsHhWQulA%2B3y%2FXZ6eQlSJ%2BbPSBvKV4DEkq5CPT9Pzk71jK4zQpbVjvJscucD2q%2BfMHHcBSYiDvoR5V%2BLKBWAlVyQjoxvAxO5hVDoWZ4BNhRTKZKa6zTuN%2FsZqom9O%2BmTn8XNzw%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7ba096dad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "387",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/sakura-charm24.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/sakura-charm24",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/sakura-charm24",
+    "status": 200,
+    "bytes": 7071,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ln36FzeApdJMlY0CVbpTNw2KrF1JmuTP%2FHFqJWILuE%2FduhKKlUoYQgZn9%2BkXdqBGY6ogdGVPOboG7SGevEdbQOjKht1lcIzTtTEgn3FL6EkgNx8zxkxiQvgGy%2BrNJF6oEnT%2BZmvmRlfGKvzyiyHOOQ%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b9be41acd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "310",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/nogi-tour-towel24.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-tour-towel24",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-tour-towel24",
+    "status": 200,
+    "bytes": 7074,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Ui3%2BYK0cdjWouPyXJK9e7FAgy8BLIeNxtCJdZXuCz5qEZYNY9%2BsLAXBFUpULiHfqdr99TI8P3uSq11eOTaXlkTJvgu2GOzqBLMwyfisyv0kV3Fma6jd6F410NeSdTE12EghZQefIYmRZIGf4yX5UBQ%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7b98da6179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "322",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/nogi-photo-holder24.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-photo-holder24",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-photo-holder24",
+    "status": 200,
+    "bytes": 7105,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1Iirz0tjTm2nNyJJmFS2GV5NqfJZklMCYx14XsyS9RtUKFQ7o53V%2F1eslaIpN3PmBuP1LjgY61If0uJgsknkPQXIqbRdPtQP0cvCSkaeOLJ9Gzl8yGsbDQlE2zBzTPgzjHaukqJ1RGI2%2FWKcNurgHw%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bba905acd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "460",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/nogi-summer24.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-summer24",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/nogi-summer24",
+    "status": 200,
+    "bytes": 7001,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ujuim4VUb6m0P3E3cbKjvY3vaxmR1K1KVaJqR9daRwgwBXksv7F9H9Zr5Flj1n2JbYhibCCf7gI7aw76yLWr6TQy3V1t%2B9gSmXTvW6kIJmB6QO7yzFP%2FFSevXSpR3ufZkh1fYE%2F2OXZDRaqU15D2gQ%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc3d63102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "193",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/hinata-photo25.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-photo25",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-photo25",
+    "status": 200,
+    "bytes": 7017,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XfFqU8HM%2Fi2NFS%2BSCAq9YmsxN8Knj%2BwAFrH6QsLgkyzybGqZATm1grMm3Gcdj9zEx50zgGcM%2B%2B3iQLV4ik4%2F0RWbF5e1V3IZEnJ8Ims%2F6GbL8Ys4lg%2FCuGaFmDyKqcK%2FsLO0lolchjddwbyI64MA5w%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bb9bc0ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "346",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/sakura-member-pen2.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/sakura-member-pen2",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/sakura-member-pen2",
+    "status": 200,
+    "bytes": 7140,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=14KgC4j0jEwYj3UzGOs%2B7rXYapwEUYqenK608FmXHAqm6gTSMkFph%2Btnd6Z5Eo23qZzeb7PY8SJ5H6rxKVKty%2Bz8AC2iMwHBKzRZBp9HnwjzdC2Rz%2FJS%2FGnJemFs1vrrbJibfQSN0bwCL41XC8dw1w%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bbec99179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "870",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/hinata-suzuka-holder25.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-suzuka-holder25",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-suzuka-holder25",
+    "status": 200,
+    "bytes": 7194,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=krSOOq8%2Fxa8i2YCz9rSktZvQueTDRCRoYkUG2fym1FTCua9sJc3W3tCiVj5P7LM9ctYpLgrmhUdZXigrTpuepW4XJFvBDJnNExQPXLlHLAI%2FoKhNpsdHEFAApzRbotDd4Doc1wZf4iULv58sbAtFXA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bbe970acd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "406",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/hinata-acsta25.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-acsta25",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-acsta25",
+    "status": 200,
+    "bytes": 7185,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QBIdK%2BG5aT%2Bz2vrgXmWTS50UMLn6cvoPWfnmoQ6PjIdybDsNV70%2BO8hWRWKFc7c08tCB%2Ff4kcvhHenuFoqEXg9m2YTJJFd9quh2jlGSFnQSP8EAvcTmnyDO7RgeHEg8HkNoLRCfdExSwoc3DaaF7ig%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc0d02179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "893",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/keyaki-pen18.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/keyaki-pen18",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/keyaki-pen18",
+    "status": 200,
+    "bytes": 7097,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hoI6uYXvTTEXyh6sfL%2F3YwcysFURo0JlBCZXIad08CuwheJfdx4jRTDcHqtQ4gx6ub%2FWMguKtVsSox4bMKB%2FofACj%2F9%2FZOU2EM3fxB%2BygNMpRkzgSWDYanP5NxUF2cTz6vuTvg3uVL7W1MA5EhXx4A%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc3d89102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "189",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "goods/hinata-mini-nobori25.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-mini-nobori25",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/goods/hinata-mini-nobori25",
+    "status": 200,
+    "bytes": 7042,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IazxCvAlrEWJ1MlCjgLfJdCIn6%2BBfRziQfPc4b5bukKf8uDcgbqe52A15x83051WckRqtf4J0bitnUs0v%2Bxsb3hDP8sFI6QnLQ6P5W5pUIB8Rhambe0RFpr4ukJahF8GWrbedJCgsx5eTIWRqLDNkw%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc3d78102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "187",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "tools/kenko-8x21.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/tools/kenko-8x21",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/tools/kenko-8x21",
+    "status": 200,
+    "bytes": 6530,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=neJ5sDrzYGr8uNwym5eae3AsnmYGtAGJ1%2B5LH%2FYf%2F%2BSFiLtDTjxmjVPO1lla85FTHjZXSRsh3CyNPD5tCg2URLIVdO%2BoB%2FpORG2enVgHd5EP04SRuDYIFb6bHriQ510aJf8e90yfiWAMNg2BTcAsAA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc3d94102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "94",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "tools/favluv-regular.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/tools/favluv-regular",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/tools/favluv-regular",
+    "status": 200,
+    "bytes": 6508,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dVmprzFToWD6g8PahIqyDTfRv%2FTvxBxNbxGh8S%2BmwROrCIrY4P%2FFd3wvdOA%2F0fy6g8CfIjPyL6uQ%2Bh1QmdjUFUzjM7CRouMAB2mA6zhHTzWBvK7w8J%2B4IJqrDk5sLf8wkl4LH2XDpcmtdi2%2BK%2B2Tlw%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc39d6acd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "352",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "tools/favluv-mini.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/tools/favluv-mini",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/tools/favluv-mini",
+    "status": 200,
+    "bytes": 6511,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IrUQNxyS%2BMG%2Bg4kSpfx%2FqgYWLIO4jYDd0LPTKMTAso%2B9t64NRj3rTo3Rpg5x2fP84pCfvlV8fgmnBGcy9QAoZx5FsXh3LgelxoDJS%2B3m6EkSJMeIXBbJ%2FltcxlagOrpSt7FXU%2BNb2A1y4UNvMdmxbA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc5e48102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "121",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "tools/heiko-l-sleeve.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/tools/heiko-l-sleeve",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/tools/heiko-l-sleeve",
+    "status": 200,
+    "bytes": 6379,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5s6obu3y1eytJHQ7LklcKkVGQLrgX3WDO7qSCFs%2B0g3jsyM6ojYqcRzX3mMclLmsSTIwCzOb9EMRwS2GcEpNyZSqw%2F2biz6KD6u75jnW%2BbWGL8hAA4%2F5L%2B%2BMCPK34DhMLciuf6Y4XGvvNR6awu8Yzg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bc5caead0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "239",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "groups/keyakizaka.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/groups/keyakizaka",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/groups/keyakizaka",
+    "status": 200,
+    "bytes": 9253,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=edGK3oo%2FdLTa2oUli3Puw3NqjtsZFh5mP96Bt9iYRA6UjWoY2qoOlMiIHhpXYnOlZGdiYeEhUPCy6Dd296gBHIHxt71DvrResBfQS5tfYgvluarLmzJDblyLrud31CJG5X23usD1CXqTWvUsKqrnKA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bd0d82ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "127",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "groups/hinatazaka.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/groups/hinatazaka",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/groups/hinatazaka",
+    "status": 200,
+    "bytes": 12706,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:45 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uLJbIc7hnZBFDnHE2ZbZLMy5K5QDX7xQGiXjKS1wxH4v9%2FRtgNNdBr4gHB5Oca2nUPFAWCuXyUecApgd1NcnnawuhbWYgI6%2FN32cOWAQpefISQffZOPzDlRr80Q3do2GXxnGlYPeywuwJMAmxhKvfA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7ca882b179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "145",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "groups/sakurazaka.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/groups/sakurazaka",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/groups/sakurazaka",
+    "status": 200,
+    "bytes": 11026,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:42 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rldxJL%2F%2Fe%2FGlLhkIyxDK5ts8pHfpLM7T%2FSxJoUmqab6bKW%2BrQNo2gXNH4wpM2wkVTvD7rNXViaec8HLP3H1fE1OdY2uMG%2BmXNBpZhPrPjeV7h%2BYZsx0rmz1yNE4jCl1RDxA7UgF0UyO3AZh%2Fx6OBig%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bd4e4c102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "52",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "groups/nogizaka.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/groups/nogizaka",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/groups/nogizaka",
+    "status": 200,
+    "bytes": 12242,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=buhBEqo4yC1jo9RmTHQqX9yonhmIk9GPg08arETqcqjRibE0llWy5f%2F3p7aUM7j6cSm2ExRwn4eVbsi5hX3md1jvBjfkubXYknbiyx4NfiMiaTRLAuTfQqXaDQYJc1fnjZBhyaT8KDbSJ2k1f1huSA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bd684f179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "676",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "groups/aobazaka.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/groups/aobazaka",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/groups/aobazaka",
+    "status": 200,
+    "bytes": 8302,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GJk5rf7kynZPAOjxC0FushJzX%2FnzI2D6iCHQac6YFzJP2UxutAHvI7phSTsVe3S7EKtVvyRWe3XWrSZ4MYPXAtWUDynOln3TYwNTxsOh4Nq2UQaA3NmPSGvojXXAgg93cPlL3Lsqvgh3%2F13%2FRZ877A%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bd6ddbad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "82",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/past-goods.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/past-goods",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/past-goods",
+    "status": 200,
+    "bytes": 6314,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wqK5gx3FBDZqEqXY32jLcHfG%2BtxftgcDv2gKSaIw2g5V6vMtYWee6a6rYP5HmIBaSl6r6ru%2BP2ATdBbk6Ddn3jPrt0Qu8PO0DlkH%2FPJXuhgBbeYyiShZSmDySUPYokhEOwIO51v%2FN02mVQJigSiVDA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bddb56102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "117",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/photo-storage.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/photo-storage",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/photo-storage",
+    "status": 200,
+    "bytes": 7510,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ybE9R%2FSIV3iSi%2Blt5Q6lBUmte%2FUB%2BK0H674izSvdrBDIOx%2BRf%2FviO5R50FY9fsg8a8rWUScnH2269oLGSidpRe7H%2Bttk4Jc9EPqJb8EyfsTXppV3tRhnt46IJMvGqAfNbaXmdlu8bcU3C35g%2FlVHHA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7be0bc7acd5-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "109",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/buying-check.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/buying-check",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/buying-check",
+    "status": 200,
+    "bytes": 9666,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RgCZ3GacKtvYM5N0UZY9bETRhbTgpsbwMgzL93GMk2xqDGGyULvvW%2BZNYaYyM0fOm%2FvZcaL4vmFbvJsBRFC%2BCAH76tLV6bPDdqlLwgOo1c29Ieug6AIy1wUJ1q%2BJAp9qo%2BQZiDcv6K%2BigZi76DETuQ%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7be2ea5ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "146",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/acsta-carry.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/acsta-carry",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/acsta-carry",
+    "status": 200,
+    "bytes": 7184,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jE71oQd3ySTuCo%2Fv4kS0RjTgdcrRCaWdl0ZzfgaTWvunBCgy6trHEscYuG3WmVTgjKN8w8tu9XieWZ0ikXHCklRbnFmI61xSLh83R3ZUafBRufX4nPQVgckzPHYYTYTH7xFHn2UVd39fGQIo57UKwA%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7be1a09179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "568",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/sakura-6th-prep.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/sakura-6th-prep",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/sakura-6th-prep",
+    "status": 200,
+    "bytes": 6980,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QfLtOPDyE1iqI88yBE%2BxCk%2BOfAkvf36HkgzBFPacj%2BpyWwFAecSqF1Esh18ACMb%2BzZwtgcdHb2GgwoQzyYar1YPpJ6e64tYd95Aff4FCAmEJZgjHN0wOUN5LrBMXtWsq9lEB4D5V5jumjZdCeimvKQ%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7be3ef5102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "111",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/photo-sleeves.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/photo-sleeves",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/photo-sleeves",
+    "status": 200,
+    "bytes": 7183,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IpI%2BWTtrL%2F%2BkXjrXCgrB%2BWSbn7k%2BJSaap%2BG9hXN%2BskyeInccPSxrw73TnESxIQ93H0QHkvEaLDGiPGBN1V0%2Fx4L2XLS7GhbKycLSKF5o4taZMctWwApEq8uHlMbsmcjIXJ9lSMgv2BU5KcpNIt02Yg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bedd6f102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "80",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/binoculars.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/binoculars",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/binoculars",
+    "status": 200,
+    "bytes": 7201,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=kt8EfKJ0nMIt3ADwIKq8HVmzQR3ztuGtahpg4tY4Wh8GM5GRcUu2LG60qqCuF1APE8isUSPSkr89pV5bW9%2B3yRCQM40lk7qYp9gex5H5tVu3s98eJO9%2FhP6cFSbLm%2Fkc%2BEIecLPwj43%2FVMY2GM50Eg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7beed19179d-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "480",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/rain-kit.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/rain-kit",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/rain-kit",
+    "status": 200,
+    "bytes": 7018,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BYIcDjGHr4vxnIJAm1hIKKGtUadLFnd%2FxQWkC06xn992AsTcJvxFrb%2FpMd721HdzNSxVd5id0ClpuK2pVYUxc4VGKyb5eY4ULUhrhHW3SY8hFRv8O5hoKUatpCB6a3q3ZbfrO%2BeDjstttKIJp0dRhg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7beeff5ad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "101",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "notes/live-kit.html",
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/live-kit",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/live-kit",
+    "status": 200,
+    "bytes": 6914,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dNh%2Bm%2BET%2BPR4bM20r5klwQ0op0TmDxKf1BztbJ4IW2oQa7xTHIuUW6L9tHFWqpiLk4i8PnIiopdmDUK6bFL13Hye0rwxtvWc3W5aqu3vKFCzsp1eV8LS2VPDr7frvi2O%2FApHW6Kol4Fq1IyjDvwkdg%3D%3D\"}]}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7beff43102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "81",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "robots.txt",
+    "url": "https://sakamichi-yorimichi.pages.dev/robots.txt",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/robots.txt",
+    "status": 200,
+    "bytes": 82,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "content-length": "82",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "etag": "\"65110c4bda2864003bf2630db229a0d3\"",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nySgX7pttiQeinxC%2BgzNvB4q8qPdCGz4%2B71X2ZTD0isWu13OcRbR%2BHgK1KkvsyjNZ53vR59VQMhf7OMurpJUPbmW%2FBfeyJm8QTsH3%2F96qKU6HnpE0%2FIPB2x82xEsojZF6c1Ni%2FBnFep6bv2MlOSQ9A%3D%3D\"}]}",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bf182cad0e-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "80",
+      "connection": "close"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "sitemap.xml",
+    "url": "https://sakamichi-yorimichi.pages.dev/sitemap.xml",
+    "final_url": "https://sakamichi-yorimichi.pages.dev/sitemap.xml",
+    "status": 200,
+    "bytes": 4220,
+    "headers": {
+      "date": "Sat, 14 Nov 2026 03:35:43 GMT",
+      "content-type": "application/xml",
+      "content-length": "4220",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "etag": "\"36c560f9b8a4ed5f5a61e1a7654f06dd\"",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=H4oe7DPC46iiarDev5tCoA2li2UecEcrZOi9%2FPr7KVG7ncTyErs0Yh7A0IwTKRYOHyJV2MRUTBZmVS3HMaau%2FDNpEpD%2F16k0xRGSbr9y10UZIAXsvRYGwzedu7ezUhKqMFwb93133bF1hJpMMwiB%2FQ%3D%3D\"}]}",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "server": "envoy",
+      "cf-ray": "a5a2f7bf299a102a-MSP",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-envoy-upstream-service-time": "147",
+      "connection": "close"
+    }
+  },
+  {
+    "repo": "sakamichi-yorimichi",
+    "path": "missing-monetization-audit-20261114",
+    "url": "https://sakamichi-yorimichi.pages.dev/missing-monetization-audit-20261114",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/articles",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/articles",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/events-2026-2027",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/events-2026-2027",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/hinatazaka-live-first",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/hinatazaka-live-first",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/keyaki-goods-care",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/keyaki-goods-care",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/live-items-picks",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/live-items-picks",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/meet-greet-first",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/meet-greet-first",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/meet-talk-topics",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/meet-talk-topics",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/news-20261111",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/news-20261111",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/nogizaka-43-meet",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/nogizaka-43-meet",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/nogizaka-live-first",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/nogizaka-live-first",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/online-meet-setup",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/online-meet-setup",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/real-meet-prep",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/real-meet-prep",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/sakurazaka-live-first",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/sakurazaka-live-first",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  },
+  {
+    "url": "https://sakamichi-yorimichi.pages.dev/notes/storage-picks",
+    "status": 200,
+    "final_url": "https://sakamichi-yorimichi.pages.dev/notes/storage-picks",
+    "pages": [
+      "sakamichi-yorimichi"
+    ]
+  }
+]
