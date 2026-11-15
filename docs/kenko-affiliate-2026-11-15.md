@@ -6,7 +6,7 @@
 - `notes/binoculars.html`
 
 商品：ケンコー ウルトラビューH 8×21DH FMC-MATBK、ブラック、8倍・21mm。
-ASIN：B0HGLYNXFL。Tracking ID：ip17-22。提供URLのクエリを含め変更せず使用。
+ASIN：B0HGLYNXFL。Tracking ID：moon12-22。ユーザーの追加指示に従いtagのみ変更。他のURLパラメータは保持。
 表示文言：⭐️Amazonのレビューを見る。広告表記・sponsored/nofollow設定あり。
 
 価格・在庫・販売元・配送条件・成果計測は未確認。レビュー本文を10件以上確認していないため、要約・星評価は掲載していない。他の未確認商品の広告は非掲載のまま。

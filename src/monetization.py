@@ -3,8 +3,8 @@ from pathlib import Path
 import json,re
 from html import escape
 
-# User supplied this exact affiliate URL after confirming the Amazon product screenshot.
-KENKO_URL = 'https://www.amazon.co.jp/dp/B0HGLYNXFL/ref=cm_sw_r_as_gl_api_gl_i_4830MMZ81CJ0A54WRMM4?linkCode=ml1&tag=ip17-22&linkId=274ae2af9296babbc8b755b1f9d4ffeb'
+# User confirmed the product and requested the site Tracking ID moon12-22.
+KENKO_URL = 'https://www.amazon.co.jp/dp/B0HGLYNXFL/ref=cm_sw_r_as_gl_api_gl_i_4830MMZ81CJ0A54WRMM4?linkCode=ml1&tag=moon12-22&linkId=274ae2af9296babbc8b755b1f9d4ffeb'
 KENKO_PAGES = ('tools/kenko-8x21.html', 'notes/binoculars.html')
 KENKO_LINK = '<a class="outlink" href="' + escape(KENKO_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
 
