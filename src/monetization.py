@@ -8,6 +8,10 @@ KENKO_URL = 'https://www.amazon.co.jp/dp/B0HGLYNXFL/ref=cm_sw_r_as_gl_api_gl_i_4
 KENKO_PAGES = ('tools/kenko-8x21.html', 'notes/binoculars.html', 'notes/live-kit.html', 'notes/live-items-picks.html')
 KENKO_LINK = '<a class="outlink" href="' + escape(KENKO_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
 
+FAVLUV_URL = 'https://www.amazon.co.jp/dp/B0C6TDW8MG/ref=cm_sw_r_as_gl_api_gl_i_DGBV37TE9DJA1W1WMCQM?linkCode=ml1&tag=moon12-22&linkId=b5b541f62d892920eee801ee74cfa36d'
+FAVLUV_PAGES = ('tools/favluv-regular.html', 'notes/photo-storage.html', 'notes/photo-sleeves.html', 'notes/storage-picks.html')
+FAVLUV_LINK = '<a class="outlink" href="' + escape(FAVLUV_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
+
 def apply(out):
     source=Path(__file__).parent
     additions=json.loads((source/'monetization-content.json').read_text())
@@ -29,6 +33,9 @@ def apply(out):
                 text=text[:anchor.end()]+purchase+text[anchor.end():]
             else:
                 text=text.replace('</article>', purchase+'</article>', 1)
+        if rel in FAVLUV_PAGES:
+            purchase = '<section class="callout"><h2>ファブラブ レギュラー・黄色をAmazonで確認</h2><p>キングジム FL5210-Y（レギュラー・6穴・イエロー）。小型のミニ FL5200とは別仕様です。収納する写真・スリーブとポケット内寸を照合してください。価格・在庫・販売元はリンク先で確認できます。</p>' + FAVLUV_LINK + '</section>'
+            text=text.replace('</article>', purchase+'</article>', 1)
         addition=additions.get(rel)
         if addition:
             # Keep additions inside the existing article column.

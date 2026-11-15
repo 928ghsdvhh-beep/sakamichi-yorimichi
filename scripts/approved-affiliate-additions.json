@@ -1,5 +1,5 @@
 {
-  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained.",
+  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained. User confirmed FL5210-Y screenshot and supplied B0C6TDW8MG moon12-22 URL for installation.",
   "tracking_ids": [
     "moon12-22"
   ],
@@ -15,6 +15,18 @@
     ],
     "notes/live-items-picks.html": [
       "5a24fcc779b10d439df5d8f073aaf2124b375900a29ced0bc7d5d75d85f4e78f"
+    ],
+    "tools/favluv-regular.html": [
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+    ],
+    "notes/photo-storage.html": [
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+    ],
+    "notes/photo-sleeves.html": [
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+    ],
+    "notes/storage-picks.html": [
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
     ]
   }
 }
