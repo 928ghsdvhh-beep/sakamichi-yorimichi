@@ -14,6 +14,10 @@ def check(repo):
     issues=[];rows=[];titles={};canonicals={};edges={}
     baseline=json.loads((repo/'scripts/affiliate-baseline.json').read_text())
     allowed_ids=set(baseline['tracking_ids'])
+    # Explicitly authorized additions are separate from the original protected baseline.
+    additions_path=repo/'scripts/approved-affiliate-additions.json'
+    additions=json.loads(additions_path.read_text()) if additions_path.exists() else {}
+    allowed_ids.update(additions.get('tracking_ids', []))
     def resolve(url):
         p=root/unquote(urlsplit(url).path.lstrip('/'))
         return next((x for x in (p,p.with_suffix('.html'),p/'index.html') if x.is_file()),None)
@@ -74,7 +78,8 @@ def check(repo):
         if not file.exists():
             issues.append([rel,'baseline page removed']);continue
         found=sorted(hashlib.sha256(m[0].encode()).hexdigest() for m in re.finditer(r'<a\b[^>]*>.*?</a>|<img\b[^>]*>',file.read_text(),re.S) if re.search(r'(?:a8\.net/|tag=|amzn\.to/)',m[0]))
-        if found!=hashes:issues.append([rel,'affiliate HTML changed'])
+        expected=sorted(hashes+additions.get('html_sha256', {}).get(rel, []))
+        if found!=expected:issues.append([rel,'affiliate HTML changed'])
     return dict(site=repo.name,pages=len(rows),indexable=sum(not r['noindex'] for r in rows),sitemap_urls=len(smurls),issues=issues,page_audit=rows)
 if __name__=='__main__':
     repo=Path(sys.argv[1] if len(sys.argv)>1 else Path(__file__).resolve().parents[1]);r=check(repo)

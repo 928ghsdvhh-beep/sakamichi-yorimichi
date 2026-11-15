@@ -1,0 +1,14 @@
+{
+  "authorization": "2026-11-15: user supplied the exact ip17-22 URL and explicitly requested installation. Original baseline retained.",
+  "tracking_ids": [
+    "ip17-22"
+  ],
+  "html_sha256": {
+    "tools/kenko-8x21.html": [
+      "d0582ded42bcc33942a47efec9855772ddb642d8f1cd61f053994aab4289f5ea"
+    ],
+    "notes/binoculars.html": [
+      "d0582ded42bcc33942a47efec9855772ddb642d8f1cd61f053994aab4289f5ea"
+    ]
+  }
+}

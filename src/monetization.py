@@ -1,6 +1,12 @@
 """Apply reviewed editorial additions without changing advertising code."""
 from pathlib import Path
 import json,re
+from html import escape
+
+# User supplied this exact affiliate URL after confirming the Amazon product screenshot.
+KENKO_URL = 'https://www.amazon.co.jp/dp/B0HGLYNXFL/ref=cm_sw_r_as_gl_api_gl_i_4830MMZ81CJ0A54WRMM4?linkCode=ml1&tag=ip17-22&linkId=274ae2af9296babbc8b755b1f9d4ffeb'
+KENKO_PAGES = ('tools/kenko-8x21.html', 'notes/binoculars.html')
+KENKO_LINK = '<a class="outlink" href="' + escape(KENKO_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
 
 def apply(out):
     source=Path(__file__).parent
@@ -10,6 +16,9 @@ def apply(out):
         if path.name.startswith('google'): continue
         text=path.read_text()
         rel=path.relative_to(out).as_posix()
+        if rel in KENKO_PAGES:
+            purchase = '<section class="callout"><h2>ケンコー8倍・ブラックをAmazonで確認</h2><p>ウルトラビューH 8×21DH FMC-MATBK（ASIN：B0HGLYNXFL）。2026年11月15日に、提供されたAmazon商品画像と商品URLを照合しました。価格・在庫・販売元・配送条件はリンク先でご確認ください。購入者レビューの要約や実使用レビューは掲載していません。</p>' + KENKO_LINK + '</section>'
+            text=text.replace('</article>', purchase+'</article>', 1)
         addition=additions.get(rel)
         if addition:
             # Keep additions inside the existing article column.
