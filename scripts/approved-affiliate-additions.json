@@ -1,5 +1,5 @@
 {
-  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained. User confirmed FL5210-Y screenshot and supplied B0C6TDW8MG moon12-22 URL for installation.",
+  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained. User confirmed FL5210-Y screenshot and supplied B0C6TDW8MG moon12-22 URL for installation. User confirmed FL5200-OR screenshot and supplied B0C6TCY9LW moon12-22 URL.",
   "tracking_ids": [
     "moon12-22"
   ],
@@ -20,13 +20,19 @@
       "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
     ],
     "notes/photo-storage.html": [
-      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33",
+      "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
     ],
     "notes/photo-sleeves.html": [
-      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33",
+      "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
     ],
     "notes/storage-picks.html": [
-      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33",
+      "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
+    ],
+    "tools/favluv-mini.html": [
+      "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
     ]
   }
 }

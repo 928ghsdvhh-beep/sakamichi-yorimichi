@@ -12,6 +12,10 @@ FAVLUV_URL = 'https://www.amazon.co.jp/dp/B0C6TDW8MG/ref=cm_sw_r_as_gl_api_gl_i_
 FAVLUV_PAGES = ('tools/favluv-regular.html', 'notes/photo-storage.html', 'notes/photo-sleeves.html', 'notes/storage-picks.html')
 FAVLUV_LINK = '<a class="outlink" href="' + escape(FAVLUV_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
 
+MINI_URL = 'https://www.amazon.co.jp/dp/B0C6TCY9LW/ref=cm_sw_r_as_gl_api_gl_i_HBAV60C5X5QCBZYQFF43?linkCode=ml1&tag=moon12-22&linkId=08df90a6641e7994b6e93e2fbe666f20'
+MINI_PAGES = ('tools/favluv-mini.html', 'notes/photo-storage.html', 'notes/photo-sleeves.html', 'notes/storage-picks.html')
+MINI_LINK = '<a class="outlink" href="' + escape(MINI_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
+
 def apply(out):
     source=Path(__file__).parent
     additions=json.loads((source/'monetization-content.json').read_text())
@@ -35,6 +39,9 @@ def apply(out):
                 text=text.replace('</article>', purchase+'</article>', 1)
         if rel in FAVLUV_PAGES:
             purchase = '<section class="callout"><h2>ファブラブ レギュラー・黄色をAmazonで確認</h2><p>キングジム FL5210-Y（レギュラー・6穴・イエロー）。小型のミニ FL5200とは別仕様です。収納する写真・スリーブとポケット内寸を照合してください。価格・在庫・販売元はリンク先で確認できます。</p>' + FAVLUV_LINK + '</section>'
+            text=text.replace('</article>', purchase+'</article>', 1)
+        if rel in MINI_PAGES:
+            purchase = '<section class="callout"><h2>ファブラブ ミニ・オレンジをAmazonで確認</h2><p>キングジム FL5200-OR（ミニ・3穴・オレンジ）。小型カード向けで、L判写真用ではありません。スリーブ込みのカード寸法とポケット内寸を照合してください。レギュラー FL5210とはサイズ・穴数が異なります。価格・在庫・販売元はリンク先でご確認ください。</p>' + MINI_LINK + '</section>'
             text=text.replace('</article>', purchase+'</article>', 1)
         addition=additions.get(rel)
         if addition:
