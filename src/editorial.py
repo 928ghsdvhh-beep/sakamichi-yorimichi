@@ -115,7 +115,7 @@ CATS=['イベント','最新情報','収納','ライブ用品','ライブアド�
 OLD=[('past-goods','過去の公式グッズの探し方'),('photo-storage','生写真とアクスタの収納選び'),('live-kit','参戦グッズの選び方'),('buying-check','中古・マーケットプレイスの確認点'),('sakura-6th-prep','櫻坂6thアニラ｜入場前の準備メモ'),('binoculars','ライブ双眼鏡｜8倍・10倍の選び方'),('rain-kit','屋外ライブ｜荷物の雨対策'),('acsta-carry','アクスタの持ち運びとケース選び'),('photo-sleeves','生写真スリーブとファイルのサイズ選び')]
 
 def cards(items):
- return '<div class="edit-cards">'+''.join(f'<a class="edit-card" href="/notes/{x["slug"]}.html"><span class="edit-thumb" data-cat="{x["cat"]}"><small>{x["group"]}</small><b>{x["cat"]}</b><span>YORIMICHI NOTE</span></span><span class="edit-card-copy"><small>{x["cat"]} ／ {DAY}公開</small><strong>{x["title"]}</strong><span>{x["desc"]}</span></span><b aria-hidden="true">↗</b></a>' for x in items)+'</div>'
+ return '<div class="edit-cards">'+''.join(f'<a class="edit-card" href="/notes/{x["slug"]}.html"><span class="edit-thumb" data-cat="{x["cat"]}"><small>{x["group"]}</small><b>{x["cat"]}</b><span>YORIMICHI NOTE</span></span><span class="edit-card-copy"><small>{x["cat"]} ／ {x.get('date',DAY)}公開</small><strong>{x["title"]}</strong><span>{x["desc"]}</span></span><b aria-hidden="true">↗</b></a>' for x in items)+'</div>'
 
 
 def official_screen():
@@ -126,13 +126,32 @@ def official_screen():
     return content+'</div><p class="screen-source">動画提供：各グループの公式YouTubeチャンネル</p></section>'
 
 
+S.update({
+'sakura_new':('櫻坂46公式ストア：松田里奈卒業セレモニーグッズ','https://store.plusmember.jp/sakurazaka46/'),
+'hina_new':('日向坂46公式：ひなくり2026グッズ受付','https://www.hinatazaka46.com/s/official/news/detail/G00246'),
+'nogi_new':('乃木坂46公式ショップ：2027年福袋','https://www.nogizaka46shop.com/product/16388'),
+'plus_new':('PLUS公式：ito/oshi第3弾','https://rss-alias.plus.co.jp/news/202610/508o929xx0u0/')})
+_new=a('goods-20261116','最新情報','坂道グッズ新着｜ひなくり2026・松田里奈記念グッズ・乃木坂2027年福袋','2026年11月16日確認。公式通販の新作と、生写真収納・ライブ遠征用品の新製品を整理。','新しいグッズを迎えるときは、受取期限と保管場所も一緒に考えておきたいもの。11月16日に確認した公式販売情報をまとめました。',[
+('公式グッズの新着',table(['対象・商品','受付情報','販売ページ'],[
+('櫻坂46：松田里奈卒業セレモニー ライブフォト生写真7枚セット','11月15日22:30販売開始。終了日・個別在庫は未確認。','<a href="https://store.plusmember.jp/sakurazaka46/products/detail.php?product_id=116593">公式商品情報</a>'),
+('日向坂46：ひなくり2026 ペンライト・マフラータオル・缶バッジホルダーなど','11月13日20:00通販開始。兵庫公演会場受取は11月19日23:00締切。コンビニ決済は11月18日23:00まで。','<a href="https://store.plusmember.jp/hinatazaka46/">公式ストア</a>'),
+('乃木坂46：2027年福袋A','11月9日新商品告知。受付終了日・在庫は商品ページで再確認。','<a href="https://www.nogizaka46shop.com/product/16388">公式商品情報</a>')])),
+('新しく出た収納・遠征用品',p('PLUSのito/oshi第3弾は10月22日発売。カード・フォトケースはL判写真やポストカードの保管・持ち運び向け。トートバッグはメーカー公表で約435g、9ポケット、キャリーオン対応です。生写真収納やライブ荷物の整理に役立つ候補ですが、寸法と収納物の相性は購入前に確認してください。実使用レビューではありません。')),
+('購入先と確認できていないこと',p('この記事で確認したのは公式発表と公式通販の掲載です。Amazonでの購入可否、出品者、新品・中古、在庫は確認できていません。Amazonで購入可能な商品としては紹介していません。公式ストア限定かどうかも未確認です。配送注文は公演前の到着が保証されるとは限りません。'))],
+['sakura_new','hina_new','nogi_new','plus_new'],['photo-storage','live-kit','buying-check'])
+_new['date']='2026年11月16日'
+_new['iso']='2026-11-16'
+ARTICLES.insert(0,_new)
+
 def render(out,page):
  byslug={x['slug']:x for x in ARTICLES}
  for x in ARTICLES:
+  day=x.get('date',DAY)
+  iso=x.get('iso','2026-11-11')
   toc='<nav class="edit-toc" aria-label="この記事の目次"><strong>この記事で読むこと</strong><ol>'+''.join(f'<li><a href="#part-{i}">{t}</a></li>' for i,(t,b) in enumerate(x['sections'],1))+'</ol></nav>'
-  sources='<section class="edit-sources"><h2>参照した公式情報</h2><p>確認日：'+DAY+'。日程・応募条件はリンク先の変更告知も確認してください。選び方・持ち物・会話例は当サイトの編集による提案で、公式指定と区別しています。</p><ul>'+''.join(f'<li><a href="{esc(S[k][1])}" target="_blank" rel="noopener noreferrer">{esc(S[k][0])} ↗</a></li>' for k in x['sources'])+'</ul></section>'
+  sources='<section class="edit-sources"><h2>参照した公式情報</h2><p>確認日：'+day+'。日程・応募条件はリンク先の変更告知も確認してください。選び方・持ち物・会話例は当サイトの編集による提案で、公式指定と区別しています。</p><ul>'+''.join(f'<li><a href="{esc(S[k][1])}" target="_blank" rel="noopener noreferrer">{esc(S[k][0])} ↗</a></li>' for k in x['sources'])+'</ul></section>'
   related='<section class="edit-related"><h2>あわせて読みたい</h2>'+ul([link(slug,byslug[slug]['title'] if slug in byslug else dict(OLD).get(slug,slug)) for slug in x['related']])+'</section>'
-  body='<div class="wrap edit-article"><nav class="edit-breadcrumb" aria-label="パンくず"><a href="/">ホーム</a> / <a href="/articles.html">推し活記事</a> / '+x['cat']+'</nav><article class="prose"><div class="edit-article-heading"><p class="eyebrow">'+x['group']+' ／ '+x['cat']+'</p><h1>'+x['title']+'</h1><p class="edit-date">公開・情報確認：<time datetime="2026-11-11">'+DAY+'</time></p></div><p class="lead">'+x['lead']+'</p>'+toc+''.join(f'<section id="part-{i}"><h2>{t}</h2>{b}</section>' for i,(t,b) in enumerate(x['sections'],1))+sources+related+'<a class="button" href="/articles.html">記事一覧へ戻る →</a></article></div>'
+  body='<div class="wrap edit-article"><nav class="edit-breadcrumb" aria-label="パンくず"><a href="/">ホーム</a> / <a href="/articles.html">推し活記事</a> / '+x['cat']+'</nav><article class="prose"><div class="edit-article-heading"><p class="eyebrow">'+x['group']+' ／ '+x['cat']+'</p><h1>'+x['title']+'</h1><p class="edit-date">公開・情報確認：<time datetime="'+iso+'">'+day+'</time></p></div><p class="lead">'+x['lead']+'</p>'+toc+''.join(f'<section id="part-{i}"><h2>{t}</h2>{b}</section>' for i,(t,b) in enumerate(x['sections'],1))+sources+related+'<a class="button" href="/articles.html">記事一覧へ戻る →</a></article></div>'
   (out/'notes'/f'{x["slug"]}.html').write_text(page(x['title'],body,x['desc']))
  hub='<div class="wrap edit-hub"><p class="eyebrow">SAKAMICHI FAN JOURNAL</p><h1>次の楽しみを、見つけよう。</h1><p class="lead">イベントの予定から、推しに会う日の準備まで。<br>坂道ファンのための読みものを集めました。</p><nav class="edit-tabs" aria-label="記事カテゴリー">'+''.join(f'<a href="#cat-{i}">{cat}</a>' for i,cat in enumerate(CATS))+'</nav>'
  for i,cat in enumerate(CATS):hub+=f'<section id="cat-{i}" class="edit-category"><h2>{cat}</h2>'+cards([x for x in ARTICLES if x['cat']==cat])+'</section>'
