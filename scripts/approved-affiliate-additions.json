@@ -1,5 +1,5 @@
 {
-  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained. User confirmed FL5210-Y screenshot and supplied B0C6TDW8MG moon12-22 URL for installation. User confirmed FL5200-OR screenshot and supplied B0C6TCY9LW moon12-22 URL.",
+  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained. User confirmed FL5210-Y screenshot and supplied B0C6TDW8MG moon12-22 URL for installation. User confirmed FL5200-OR screenshot and supplied B0C6TCY9LW moon12-22 URL. 2026-11-16: user requested expansion of direct product links; reuse the three confirmed product URLs on relevant live/storage guides and tools hub.",
   "tracking_ids": [
     "moon12-22"
   ],
@@ -32,6 +32,26 @@
       "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
     ],
     "tools/favluv-mini.html": [
+      "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
+    ],
+    "notes/nogizaka-live-first.html": [
+      "5a24fcc779b10d439df5d8f073aaf2124b375900a29ced0bc7d5d75d85f4e78f"
+    ],
+    "notes/sakurazaka-live-first.html": [
+      "5a24fcc779b10d439df5d8f073aaf2124b375900a29ced0bc7d5d75d85f4e78f"
+    ],
+    "notes/hinatazaka-live-first.html": [
+      "5a24fcc779b10d439df5d8f073aaf2124b375900a29ced0bc7d5d75d85f4e78f"
+    ],
+    "notes/sakura-6th-prep.html": [
+      "5a24fcc779b10d439df5d8f073aaf2124b375900a29ced0bc7d5d75d85f4e78f"
+    ],
+    "notes/keyaki-goods-care.html": [
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33"
+    ],
+    "tools.html": [
+      "5a24fcc779b10d439df5d8f073aaf2124b375900a29ced0bc7d5d75d85f4e78f",
+      "b6fd9ca1575125030313075c5f6c943376f6edf07de85efd285120215b5f0a33",
       "1c924c3b6533fe1bf4addc849be487b05f7f49a902c2fae1d3c4ca1431566553"
     ]
   }
