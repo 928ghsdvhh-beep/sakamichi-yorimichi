@@ -8,6 +8,21 @@ import json,re,sys,hashlib,xml.etree.ElementTree as ET
 class Page(HTMLParser):
     def __init__(self,s):super().__init__();self.tags=[];self.feed(s)
     def handle_starttag(self,t,a):self.tags.append((t,dict(a)))
+def schema_types(value):
+    """Collect types from JSON-LD objects, arrays and @graph containers."""
+    found=[]
+    def visit(node):
+        if isinstance(node,list):
+            for item in node: visit(item)
+        elif isinstance(node,dict):
+            types=node.get('@type',[])
+            for item in (types if isinstance(types,list) else [types]):
+                if isinstance(item,str) and item not in found: found.append(item)
+            for key,item in node.items():
+                if key != '@type' and isinstance(item,(dict,list)): visit(item)
+    visit(value)
+    return found
+
 def check(repo):
     repo=repo.resolve()
     root=repo/'dist' if (repo/'dist').is_dir() else repo
@@ -59,7 +74,7 @@ def check(repo):
             if frag and target.suffix=='.html' and not re.search(r'(?:id|name)=[\"\']'+re.escape(unquote(frag))+r'[\"\']',target.read_text()):issues.append([rel,'missing fragment',val])
         edges[rel]=links
         body=re.sub(r'<(script|style)\b.*?</\1>','',s,flags=re.S);body=re.sub('<[^>]+>',' ',body)
-        rows.append(dict(path=rel,title=title[0] if title else None,h1=h1[0] if h1 else None,description=descs[0] if descs else None,canonical=canonical[0] if canonical else None,noindex=noindex,text_characters=len(re.sub(r'\s+','',body)),html_bytes=f.stat().st_size,schema_types=[d.get('@type') for d in schemas],internal_links=len(set(links)),affiliate_links=len(aff),images=len(imgs),review_summary_added=False))
+        rows.append(dict(path=rel,title=title[0] if title else None,h1=h1[0] if h1 else None,description=descs[0] if descs else None,canonical=canonical[0] if canonical else None,noindex=noindex,text_characters=len(re.sub(r'\s+','',body)),html_bytes=f.stat().st_size,schema_types=schema_types(schemas),internal_links=len(set(links)),affiliate_links=len(aff),images=len(imgs),review_summary_added=False))
     for name,mapping in [('duplicate title',titles),('duplicate canonical',canonicals)]:
         for k,v in mapping.items():
             if len(v)>1:issues.append([name,v])
