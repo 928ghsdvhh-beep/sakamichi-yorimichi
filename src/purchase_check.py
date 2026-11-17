@@ -17,7 +17,7 @@ def enrich(path,data):
   if d.get('@type') in ('Article','BlogPosting'):d['dateModified']='2026-11-12'
   return '<script type="application/ld+json">'+json.dumps(d,ensure_ascii=False).replace('<','\\u003c')+'</script>'
  h=re.sub(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',schema,h,flags=re.S)
- path.write_text(h)
+ path.write_text(h.rstrip("\n") + "\n")
 
 def extend(out):
     enrich(out/DATA[0], DATA)
