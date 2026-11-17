@@ -115,4 +115,6 @@ improve_monetization(OUT)
 finalize(OUT)
 from article_quality import apply as improve_article_quality
 improve_article_quality(OUT)
+from article_images import apply as apply_article_images
+apply_article_images(OUT)
 print(f'Built {len(list(OUT.rglob("*.html")))} HTML pages')
