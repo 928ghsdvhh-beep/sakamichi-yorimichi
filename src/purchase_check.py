@@ -8,7 +8,9 @@ def section(data):
 def enrich(path,data):
  h=path.read_text()
  if 'id="purchase-comparison"' in h:raise RuntimeError('already enriched')
- h=h.replace('</main>',section(data)+'</main>')
+ # Keep the comparison in the article's existing width and reading order.
+ if h.count('</article>') != 1:raise RuntimeError('expected one article')
+ h=h.replace('</article>',section(data)+'</article>',1)
  # Match only the edit date; do not alter the original publication date or claim a fresh specification check.
  def schema(m):
   d=json.loads(m.group(1))
@@ -19,3 +21,4 @@ def enrich(path,data):
 
 def extend(out):
     enrich(out/DATA[0], DATA)
+
