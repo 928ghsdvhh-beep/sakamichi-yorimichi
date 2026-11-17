@@ -61,6 +61,7 @@ def finalize(out):
     print(f'Metadata ready for {len(routes)} indexable routes')
 
 def make_share_card(path):
+    path.parent.mkdir(parents=True, exist_ok=True)
     from PIL import Image,ImageDraw,ImageFont
     image=Image.new('RGB',(1200,630),'#fffdfb');draw=ImageDraw.Draw(image)
     font_path=str(Path(__file__).resolve().parents[1]/'src'/'fonts'/'ShareCardSubset.otf')

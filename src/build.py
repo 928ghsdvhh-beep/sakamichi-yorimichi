@@ -2,6 +2,7 @@ from pathlib import Path
 from html import escape as e
 from urllib.parse import urlencode
 import json
+from shutil import copytree
 from refresh import refresh_body, goods_media
 from catalog import EXTRA_GOODS, render_gear_pages
 from seo import finalize
@@ -57,7 +58,9 @@ archive='''<section class="section wrap" id="archive"><div class="section-headin
 official='''<section class="official-section" id="official"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">OFFICIAL FIRST</p><h2>今のグッズは、まず公式へ。</h2></div><p>現行商品・再販・受注受付を確認。<br>在庫や受付期間は公式ショップで。</p></div><div class="shop-grid">'''+''.join(f'<a target="_blank" rel="noopener noreferrer" href="{url}" class="shop" style="--group:{GROUPS[g][1]}"><span>{GROUPS[g][0]}</span><small>OFFICIAL GOODS STORE</small><b>公式ショップへ ↗</b></a>' for g,url in [('nogizaka','https://www.nogizaka46shop.com/'),('sakurazaka','https://store.plusmember.jp/sakurazaka46/'),('hinatazaka','https://store.plusmember.jp/hinatazaka46/')])+'''</div><div class="aoba-note"><span class="tag">青葉坂46</span><p>新しい坂道の歩みも。商品情報は公式発表で確認できたものから掲載します。</p><a href="https://aobazaka46.com/" target="_blank" rel="noopener noreferrer">公式情報へ ↗</a></div></div></section>'''
 support='''<section class="section wrap" id="support"><div class="section-heading"><div><p class="eyebrow">KEEP IT. TAKE IT. ENJOY IT.</p><h2>好きなものを、大切に。<br>ライブの日を、身軽に。</h2></div><p>収納も、持ち物も。<br>困る場面から選んでみる。</p></div><div class="support-grid"><a class="support-card purple" href="/notes/photo-storage.html"><div class="support-icon">'''+icon('収納グッズ')+'''</div><span class="eyebrow">STORAGE</span><h3>増えていく生写真、<br>どうしまう？</h3><p>スリーブ・ファイル・アクスタケース。入れた後のサイズまで。</p><b>収納の選び方 ↗</b></a><a class="support-card blue" href="/notes/live-kit.html"><div class="support-icon">'''+icon('双眼鏡')+'''</div><span class="eyebrow">LIVE ESSENTIALS</span><h3>遠い席も、雨の日も。<br>準備して楽しむ。</h3><p>双眼鏡・荷物カバー・充電。持っていく理由から考える。</p><b>参戦準備を読む ↗</b></a></div></section>'''
 notes='<section class="section wrap" id="notes"><div class="section-heading"><div><p class="eyebrow">YORIMICHI NOTES</p><h2>買う前の、よりみちノート。</h2></div></div>'+guides_grid()+'</section>'
+# CSS, browser scripts and ownership verification are source inputs, not build leftovers.
 OUT.mkdir(exist_ok=True)
+copytree(ROOT/'src'/'static', OUT, dirs_exist_ok=True)
 (OUT/'index.html').write_text(page('坂道グッズと推し活のノート',hero+groups+'<div class="ad-note wrap">広告を含みます <span>非公式の案内サイト ／ 公式販売記録と出品情報を区別して掲載</span></div>'+archive+official+support+notes))
 
 for folder in ['goods','groups','notes']: (OUT/folder).mkdir(exist_ok=True)
