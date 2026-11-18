@@ -1,7 +1,7 @@
 """Site metadata from the actual generated routes; no invented product offers."""
 from pathlib import Path
 from html import escape, unescape
-from urllib.parse import quote
+from urllib.parse import quote, urljoin, urlsplit
 import json
 import re
 import os
@@ -14,6 +14,24 @@ def finalize(out):
     redesign(out)
     (out/'yorimichi-icon.svg').write_text("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><title>坂道よりみち</title><path fill=\"#8346ad\" d=\"M7 56 47 8h12L19 56Z\"/><path fill=\"#dd729e\" d=\"m28 45 10-12h21L49 45Z\"/><path fill=\"#57b4d4\" d=\"M29 31 17 17H6l17 21Z\"/></svg>")
     (out/'favicon.svg').write_text("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><title>坂道よりみち</title><path fill=\"#8346ad\" d=\"M7 56 47 8h12L19 56Z\"/><path fill=\"#dd729e\" d=\"m28 45 10-12h21L49 45Z\"/><path fill=\"#57b4d4\" d=\"M29 31 17 17H6l17 21Z\"/></svg>")
+    html_paths = list(out.rglob('*.html'))
+    redirects = {
+        '/'+path.relative_to(out).as_posix():
+        ('/' if path == out/'index.html' else '/'+path.relative_to(out).with_suffix('').as_posix())
+        for path in html_paths
+        if path.name != '404.html' and not re.fullmatch(r'google[0-9a-f]+\.html', path.name)
+    }
+
+    def canonical_link(match, page_url):
+        href = match[3]
+        if not href or href.startswith(('#', '?')):
+            return match[0]
+        target = urlsplit(urljoin(page_url, href))
+        if target.netloc != urlsplit(ORIGIN).netloc or target.path not in redirects:
+            return match[0]
+        suffix = ('?'+target.query if target.query else '') + ('#'+target.fragment if target.fragment else '')
+        return match[1]+match[2]+redirects[target.path]+suffix+match[2]
+
     routes=[]
     for path in sorted(out.rglob('*.html')):
         relative=path.relative_to(out).as_posix()
@@ -51,6 +69,8 @@ def finalize(out):
         html=html.replace('</body>',analytics+'</body>')
         if relative=='privacy.html':
             html=html.replace('本サイト独自のアクセス解析、広告配信スクリプト、会員登録、お問い合わせフォームは設置していません。ホスティングサービスが運用上のアクセス情報や認証に関する情報を処理する場合があります。','当サイトでは、閲覧状況や表示速度の把握とサイト改善のためCloudflare Web Analyticsを利用します。会員登録、お問い合わせフォームは設置していません。ホスティングサービスが運用上のアクセス情報を処理する場合があります。')
+        html = re.sub(r"""(<a\b[^>]*?\bhref\s*=\s*)(["'])(.*?)\2""",
+                      lambda match: canonical_link(match, url), html, flags=re.I)
         path.write_text(html)
     xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     xml+=''.join('<url><loc>'+escape(url)+'</loc></url>\n' for url in routes)+'</urlset>\n'
