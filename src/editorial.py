@@ -1,6 +1,7 @@
 """Source-checked acquisition articles. Dates are snapshots, not a live feed."""
 from html import escape as esc
 import re
+from monetization import KENKO_LINK, FAVLUV_LINK, MINI_LINK
 
 DAY='2026年11月11日'
 S={
@@ -29,19 +30,27 @@ def a(slug,cat,title,desc,lead,sections,sources,related,group='坂道共通'):
  return dict(slug=slug,cat=cat,title=title,desc=desc,lead=lead,sections=sections,sources=sources,related=related,group=group)
 
 ARTICLES=[
-a('events-2026-2027','イベント','坂道イベント情報｜2026年11月以降のライブ・ミーグリ確認ガイド','乃木坂・櫻坂・日向坂の公式発表から、直近の公演と応募情報を整理。開催日と申込締切を分けて確認。','ライブの日にちだけをメモして、申込締切を見落としたことはありませんか。参加までには「応募」「入金」「チケット受取」「当日の受付」があります。ここでは公式発表を確認できたイベントを、準備に使える形で整理します。',[
-('確認できたライブ予定',p('田村保乃 卒業コンサートを11月19日に追記しました。そのほかの公演は11月11日時点の公式発表です。全イベントを網羅した一覧ではありません。開催・出演・販売状況は変更されるため、購入前と出発前に公式の最新案内を確認してください。')+table(['グループ／公演','日程・会場','準備記事・公式案内'],[
+a('events-2026-2027','イベント','坂道イベント情報｜2026年11月以降のライブ・ミーグリ確認ガイド','乃木坂・櫻坂・日向坂の公式発表から、直近の公演と応募情報を整理。開催日と申込締切を分けて確認。','乃木坂46・櫻坂46・日向坂46の公演日程、チケットの申込先、推し活グッズをまとめました。',[
+('ライブ日程・会場',table(['グループ／公演','日程・会場','準備記事・公式案内'],[
  ('櫻坂46「田村保乃 卒業コンサート」','2027年1月28日（木）・29日（金）／国立代々木競技場 第一体育館','<a href="https://sakurazaka46.com/s/s46/page/ht_graduation_concert" target="_blank" rel="noopener noreferrer">公式特設・チケット案内 ↗</a>'),
- ('櫻坂46／6th YEAR ANNIVERSARY LIVE','2026年11月14・15日／ZOZOマリンスタジアム',link('sakurazaka-live-first','屋外アニラの準備')),
  ('日向坂46／ひなくり2026','兵庫11月21～23日、東京12月9～11日、愛知12月22～24日',link('hinatazaka-live-first','会場別の準備')),
  ('乃木坂46／乃木坂スター誕生！SIX LIVE','2027年1月16・17日／有明アリーナ',link('nogizaka-live-first','初参戦の準備'))])+ '<h3>田村保乃 卒業コンサートのチケット受付</h3>'+table(['販売区分','受付日程'],[
  ('FC抽選先行・Leminoスペシャルシート先行・Lemino櫻坂46パック先行','2026年11月19日12:00～11月29日23:59'),
  ('オフィシャル先行','2026年12月12日12:00～12月20日23:59'),
  ('イオンカード先行','2026年12月28日12:00～2027年1月5日23:59'),
- ('一般発売','2027年1月16日12:00～')])+p('卒業コンサートとチケット日程は2026年11月19日に確認しました。時刻は日本時間です。対象条件・申込先は公式特設をご確認ください。')),
-('ミーグリは開催日と応募期間を別にする',p('乃木坂46の43枚目シングル「君ロス」のオンラインミーグリは、第5次が11月19日14:00～11月20日14:00、第6次が11月26日14:00～11月27日14:00です。第4次は11月13日に終了しました。櫻坂46の16枚目シングルの受付日程は、下の公式案内で確認できます。日向坂46の18枚目シングルのforTUNE musicでの販売は終了しています。')+p(link('nogizaka-43-meet','乃木坂46「君ロス」のミーグリ受付・申込方法'))),
-('カレンダーに入れるなら、この4項目',ul(['応募終了：受付開始とは別の予定として登録する。','支払い期限：当落を見たら、購入完了まで確認する。','チケット受取・顔写真登録：利用するアプリと必要な手順を確認する。','当日：開演だけでなく、会場到着・入場・帰りの予定も書く。'])+p('時間の余裕は会場までの移動、グッズ受取、本人確認の手続きから逆算します。一律に「開演の何分前で十分」と決めると、初めての会場では予定が崩れやすくなります。')),
-('欅坂・青葉坂の扱い',p('欅坂の過去公演・グッズは記録として分けて掲載します。現在の櫻坂の公演に、当時のルールをそのまま当てはめないでください。青葉坂については今回、掲載できる公演日程と参加条件の一次情報を確認できていません。日程を推測してカレンダーへ追加することはしません。'))],['sakura_schedule','hina_live','nogi_live','nogi_meet','sakura_meet','fortune_h','keyaki'],['live-items-picks','meet-greet-first']),
+ ('一般発売','2027年1月16日12:00～')])+p('時刻は日本時間です。受付条件は公式特設でご確認ください。')),
+('坂道ファンの推し活グッズ',p('広告')
+ +'<h3>遠い席から表情を見たいときに</h3>'
+ +p('ケンコーのウルトラビューH 8×21は、持ち歩きやすい小型の8倍双眼鏡です。スタンド席など、ステージから離れた席で使う候補に。')
+ +p(KENKO_LINK)
+ +'<h3>生写真を自宅で整理したいときに</h3>'
+ +p('キングジムのファブラブ コレクションバインダー（レギュラー）は、対応リフィルと組み合わせて、生写真をグループや衣装ごとに整理できます。')
+ +p(FAVLUV_LINK)
+ +'<h3>トレカを持ち歩きたいときに</h3>'
+ +p('キングジムのファブラブ コレクションバインダー（ミニ）は、トレカや小さめのフォトカードを少しだけ持ち歩きたいときに使えます。')
+ +p(MINI_LINK)),
+('ミーグリの応募日程',p('乃木坂46の43枚目シングル「君ロス」のオンラインミーグリは、第5次が11月19日14:00～11月20日14:00、第6次が11月26日14:00～11月27日14:00です。第4次は11月13日に終了しました。櫻坂46の16枚目シングルの受付日程は、下の公式案内で確認できます。日向坂46の18枚目シングルのforTUNE musicでの販売は終了しています。')+p(link('nogizaka-43-meet','乃木坂46「君ロス」のミーグリ受付・申込方法'))),
+],['hina_live','nogi_live','nogi_meet','sakura_meet','fortune_h'],['live-items-picks','meet-greet-first']),
 
 a('news-20261111','最新情報','坂道最新情報メモ｜2026年11月11日確認の公演・リリース・応募情報','乃木坂46「君ロス」、櫻坂46の周年ライブ、日向坂46「ひなくり2026」。公式発表をもとに、次に確認することを整理した日付付きニュース。','発表が重なる時期は、見出しを追うだけでも大変です。このページでは、2026年11月11日に確認した発表を「参加準備に何が関係するか」まで整理します。自動更新ニュースではなく、この日付時点の編集メモです。',[
 ('乃木坂46「君ロス」の発売と次のライブ',p('43rdシングル「君ロス」の特設ページでは11月11日のMV公開告知を確認。CD発売予定は12月2日です。また「乃木坂スター誕生！SIX LIVE」は2027年1月16・17日に有明アリーナで開催予定。公演準備と、CDの応募特典は別の予定として管理すると整理しやすくなります。')+p('ミーグリを目的にCDを選ぶ場合、通常の商品購入だけで対象の参加権利が付くとは限りません。対象販売窓口、応募回、当落後の手続きを確認してから申し込みます。')),
@@ -154,7 +163,8 @@ def render(out,page):
   day=x.get('date',DAY)
   iso=x.get('iso','2026-11-11')
   toc='<nav class="edit-toc" aria-label="この記事の目次"><strong>この記事で読むこと</strong><ol>'+''.join(f'<li><a href="#part-{i}">{t}</a></li>' for i,(t,b) in enumerate(x['sections'],1))+'</ol></nav>'
-  sources='<section class="edit-sources"><h2>参照した公式情報</h2><p>確認日：'+day+'。日程・応募条件はリンク先の変更告知も確認してください。選び方・持ち物・会話例は当サイトの編集による提案で、公式指定と区別しています。</p><ul>'+''.join(f'<li><a href="{esc(S[k][1])}" target="_blank" rel="noopener noreferrer">{esc(S[k][0])} ↗</a></li>' for k in x['sources'])+'</ul></section>'
+  sources_note='' if x['slug']=='events-2026-2027' else p('確認日：'+day+'。日程・応募条件はリンク先の変更告知も確認してください。選び方・持ち物・会話例は当サイトの編集による提案で、公式指定と区別しています。')
+  sources='<section class="edit-sources"><h2>参照した公式情報</h2>'+sources_note+'<ul>'+''.join(f'<li><a href="{esc(S[k][1])}" target="_blank" rel="noopener noreferrer">{esc(S[k][0])} ↗</a></li>' for k in x['sources'])+'</ul></section>'
   related='<section class="edit-related"><h2>あわせて読みたい</h2>'+ul([link(slug,byslug[slug]['title'] if slug in byslug else dict(OLD).get(slug,slug)) for slug in x['related']])+'</section>'
   body='<div class="wrap edit-article"><nav class="edit-breadcrumb" aria-label="パンくず"><a href="/">ホーム</a> / <a href="/articles.html">推し活記事</a> / '+x['cat']+'</nav><article class="prose"><div class="edit-article-heading"><p class="eyebrow">'+x['group']+' ／ '+x['cat']+'</p><h1>'+x['title']+'</h1><p class="edit-date">公開・情報確認：<time datetime="'+iso+'">'+day+'</time></p></div><p class="lead">'+x['lead']+'</p>'+toc+''.join(f'<section id="part-{i}"><h2>{t}</h2>{b}</section>' for i,(t,b) in enumerate(x['sections'],1))+sources+related+'<a class="button" href="/articles.html">記事一覧へ戻る →</a></article></div>'
   (out/'notes'/f'{x["slug"]}.html').write_text(page(x['title'],body,x['desc']))
