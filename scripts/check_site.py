@@ -88,12 +88,15 @@ def check(repo):
     for row in rows:
         row['reachable_from_home']=row['path'] in reached
         if not row['noindex'] and not row['reachable_from_home']:issues.append([row['path'],'orphan page'])
-    for rel,hashes in baseline['protected_html_sha256'].items():
+    protected=baseline['protected_html_sha256']
+    approved=additions.get('html_sha256', {})
+    for rel in sorted(protected.keys() | approved.keys()):
+        hashes=protected.get(rel, [])
         file=root/rel
         if not file.exists():
             issues.append([rel,'baseline page removed']);continue
         found=sorted(hashlib.sha256(m[0].encode()).hexdigest() for m in re.finditer(r'<a\b[^>]*>.*?</a>|<img\b[^>]*>',file.read_text(),re.S) if re.search(r'(?:a8\.net/|tag=|amzn\.to/)',m[0]))
-        expected=sorted(hashes+additions.get('html_sha256', {}).get(rel, []))
+        expected=sorted(hashes+approved.get(rel, []))
         if found!=expected:issues.append([rel,'affiliate HTML changed'])
     return dict(site=repo.name,pages=len(rows),indexable=sum(not r['noindex'] for r in rows),sitemap_urls=len(smurls),issues=issues,page_audit=rows)
 if __name__=='__main__':

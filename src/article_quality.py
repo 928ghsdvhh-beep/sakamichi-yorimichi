@@ -24,7 +24,4 @@ def apply(out):
                 if d.get('@type') in ('Article','BlogPosting'):d['dateModified']='2026-11-14'
                 return '<script type="application/ld+json">'+json.dumps(d,ensure_ascii=False).replace('<','\\u003c')+'</script>'
             text=re.sub(r'<script[^>]*type=[\"\']application/ld\+json[\"\'][^>]*>(.*?)</script>',update,text,flags=re.S)
-            note='<p class="editorial-update" style="font-size:12px">編集更新：2026年11月14日。選び方・比較・関連記事を補足しました。商品仕様・料金・制度の確認日は各項目の出典を参照してください。実使用レビューや購入者レビューの要約を追加したものではありません。</p>'
-            marker='</article>' if '</article>' in text else '</main>'
-            text=text.replace(marker,note+marker,1)
         path.write_text(text)
