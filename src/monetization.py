@@ -46,6 +46,26 @@ def related_products(rel):
     return None
 
 
+def add_live_item_picks(text):
+    products = (
+        ('遠い席でステージを追いたい',
+         'ケンコー ウルトラビューH 8×21DH（ブラック）。手持ちで使う8倍双眼鏡を探している人向けです。', KENKO_LINK),
+        ('現地で買った生写真を整理したい',
+         'キングジム ファブラブ レギュラー FL5210-Y。帰宅後の整理に。スリーブに入れた写真の外寸とポケット内寸を照合してください。', FAVLUV_LINK),
+        ('トレカを持ち歩きたい',
+         'キングジム ファブラブ ミニ FL5200-OR。小型カード向けです。スリーブ込みの寸法で入るか確認してください。', MINI_LINK),
+    )
+    cards = ''.join(
+        f'<section class="callout"><h3>{heading}</h3><p>{description}</p>{link}</section>'
+        for heading, description, link in products
+    )
+    picks = '<section aria-labelledby="live-picks-heading"><h2 id="live-picks-heading">用途別に選べる推し活グッズ</h2>' + cards + '</section>'
+    marker = '<nav class="edit-toc"'
+    if marker not in text:
+        raise ValueError('Missing table of contents on live item picks')
+    return text.replace(marker, picks + marker, 1)
+
+
 def apply(out):
     source=Path(__file__).parent
     additions=json.loads((source/'monetization-content.json').read_text())
@@ -56,15 +76,14 @@ def apply(out):
         rel=path.relative_to(out).as_posix()
         if rel in KENKO_PAGES:
             purchase = '<section class="callout"><h2>ケンコー8倍・ブラックをAmazonで確認</h2><p>ウルトラビューH 8×21DH FMC-MATBK。価格・在庫はAmazonでご確認ください。</p>' + KENKO_LINK + '</section>'
-            if rel in ('notes/live-kit.html', 'notes/live-items-picks.html'):
-                # Keep the purchase link beside the existing model discussion.
-                pattern = (r'<div class="callout">(?:(?!</div>).)*href="/tools/kenko-8x21\.html"(?:(?!</div>).)*</div>'
-                           if rel == 'notes/live-kit.html' else
-                           r'<p\b[^>]*>(?:(?!</p>).)*href="/tools/kenko-8x21\.html"(?:(?!</p>).)*</p>')
-                anchor=re.search(pattern, text, re.S)
+            if rel == 'notes/live-items-picks.html':
+                text = add_live_item_picks(text)
+            elif rel == 'notes/live-kit.html':
+                pattern = r'<div class="callout">(?:(?!</div>).)*href="/tools/kenko-8x21\.html"(?:(?!</div>).)*</div>'
+                anchor = re.search(pattern, text, re.S)
                 if not anchor:
-                    raise ValueError('Missing Kenko model discussion: '+rel)
-                text=text[:anchor.end()]+purchase+text[anchor.end():]
+                    raise ValueError('Missing Kenko model discussion: ' + rel)
+                text = text[:anchor.end()] + purchase + text[anchor.end():]
             else:
                 text=insert_purchase(text, purchase) if rel in ('notes/nogizaka-live-first.html', 'notes/sakurazaka-live-first.html', 'notes/hinatazaka-live-first.html', 'notes/sakura-6th-prep.html', 'notes/keyaki-goods-care.html') else text.replace('</article>', purchase+'</article>', 1)
         if rel in FAVLUV_PAGES:
