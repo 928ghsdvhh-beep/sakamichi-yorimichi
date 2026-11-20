@@ -6,15 +6,15 @@ from html import escape
 # User confirmed the product and requested the site Tracking ID moon12-22.
 KENKO_URL = 'https://www.amazon.co.jp/dp/B0HGLYNXFL/ref=cm_sw_r_as_gl_api_gl_i_4830MMZ81CJ0A54WRMM4?linkCode=ml1&tag=moon12-22&linkId=274ae2af9296babbc8b755b1f9d4ffeb'
 KENKO_PAGES = ('tools/kenko-8x21.html', 'notes/binoculars.html', 'notes/live-kit.html', 'notes/live-items-picks.html', 'notes/nogizaka-live-first.html', 'notes/sakurazaka-live-first.html', 'notes/hinatazaka-live-first.html', 'notes/sakura-6th-prep.html')
-KENKO_LINK = '<a class="outlink" href="' + escape(KENKO_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
+KENKO_LINK = '<a class="outlink" href="' + escape(KENKO_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">商品レビューを見る</a>'
 
 FAVLUV_URL = 'https://www.amazon.co.jp/dp/B0C6TDW8MG/ref=cm_sw_r_as_gl_api_gl_i_DGBV37TE9DJA1W1WMCQM?linkCode=ml1&tag=moon12-22&linkId=b5b541f62d892920eee801ee74cfa36d'
 FAVLUV_PAGES = ('tools/favluv-regular.html', 'notes/photo-storage.html', 'notes/photo-sleeves.html', 'notes/storage-picks.html', 'notes/keyaki-goods-care.html')
-FAVLUV_LINK = '<a class="outlink" href="' + escape(FAVLUV_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
+FAVLUV_LINK = '<a class="outlink" href="' + escape(FAVLUV_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">商品レビューを見る</a>'
 
 MINI_URL = 'https://www.amazon.co.jp/dp/B0C6TCY9LW/ref=cm_sw_r_as_gl_api_gl_i_HBAV60C5X5QCBZYQFF43?linkCode=ml1&tag=moon12-22&linkId=08df90a6641e7994b6e93e2fbe666f20'
 MINI_PAGES = ('tools/favluv-mini.html', 'notes/photo-storage.html', 'notes/photo-sleeves.html', 'notes/storage-picks.html')
-MINI_LINK = '<a class="outlink" href="' + escape(MINI_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">⭐️Amazonのレビューを見る ↗</a>'
+MINI_LINK = '<a class="outlink" href="' + escape(MINI_URL, quote=True) + '" target="_blank" rel="sponsored nofollow noopener noreferrer">商品レビューを見る</a>'
 
 def insert_purchase(text, purchase):
     marker = '<section class="edit-sources">'
