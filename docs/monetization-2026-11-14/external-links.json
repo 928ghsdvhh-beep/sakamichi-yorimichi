@@ -1,0 +1,384 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=OzhgQxSoljI",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/articles.html"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jteJsHAj6GE",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/articles.html"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mgFUz_c4ToM",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/articles.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46shop.com/product/12346",
+    "status": 200,
+    "final_url": "https://www.nogizaka46shop.com/product/12346",
+    "content_type": "text/html; charset=utf-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/nogi-summer24.html",
+      "sakamichi-yorimichi/groups/nogizaka.html"
+    ]
+  },
+  {
+    "url": "https://sakurazaka46.com/s/s46/news/detail/G00123",
+    "status": 200,
+    "final_url": "https://sakurazaka46.com/s/s46/news/detail/G00123",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/sakura-acsta24.html",
+      "sakamichi-yorimichi/goods/sakura-charm24.html",
+      "sakamichi-yorimichi/goods/sakura-member-pen2.html",
+      "sakamichi-yorimichi/groups/sakurazaka.html",
+      "sakamichi-yorimichi/groups/sakurazaka.html",
+      "sakamichi-yorimichi/groups/sakurazaka.html"
+    ]
+  },
+  {
+    "url": "https://www.hinatazaka46.com/s/official/news/detail/G00171",
+    "status": 200,
+    "final_url": "https://www.hinatazaka46.com/s/official/news/detail/G00171",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/hinata-towel25.html",
+      "sakamichi-yorimichi/goods/hinata-photo25.html",
+      "sakamichi-yorimichi/goods/hinata-suzuka-holder25.html",
+      "sakamichi-yorimichi/goods/hinata-acsta25.html",
+      "sakamichi-yorimichi/goods/hinata-mini-nobori25.html",
+      "sakamichi-yorimichi/groups/hinatazaka.html",
+      "sakamichi-yorimichi/groups/hinatazaka.html",
+      "sakamichi-yorimichi/groups/hinatazaka.html",
+      "sakamichi-yorimichi/groups/hinatazaka.html",
+      "sakamichi-yorimichi/groups/hinatazaka.html"
+    ]
+  },
+  {
+    "url": "https://www.keyakizaka46.com/s/k46o/news/detail/G00060",
+    "status": 200,
+    "final_url": "https://www.keyakizaka46.com/s/k46o/news/detail/G00060",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/keyaki-pen18.html",
+      "sakamichi-yorimichi/groups/keyakizaka.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46shop.com/product/12377",
+    "status": 200,
+    "final_url": "https://www.nogizaka46shop.com/product/12377",
+    "content_type": "text/html; charset=utf-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/nogi-tour-towel24.html",
+      "sakamichi-yorimichi/groups/nogizaka.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46shop.com/category/704",
+    "status": 200,
+    "final_url": "https://www.nogizaka46shop.com/category/704",
+    "content_type": "text/html; charset=utf-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/nogi-photo-holder24.html",
+      "sakamichi-yorimichi/groups/nogizaka.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46shop.com/product/14989",
+    "status": 200,
+    "final_url": "https://www.nogizaka46shop.com/product/14989",
+    "content_type": "text/html; charset=utf-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/goods/nogi-photo-holder25.html",
+      "sakamichi-yorimichi/groups/nogizaka.html"
+    ]
+  },
+  {
+    "url": "https://store.plusmember.jp/sakurazaka46/products/detail.php?product_id=114906",
+    "status": 200,
+    "final_url": "https://store.plusmember.jp/sakurazaka46/products/detail.php?product_id=114906",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46shop.com/",
+    "status": 200,
+    "final_url": "https://www.nogizaka46shop.com/",
+    "content_type": "text/html; charset=utf-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html"
+    ]
+  },
+  {
+    "url": "https://store.plusmember.jp/sakurazaka46/",
+    "status": 200,
+    "final_url": "https://store.plusmember.jp/sakurazaka46/",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html"
+    ]
+  },
+  {
+    "url": "https://store.plusmember.jp/hinatazaka46/",
+    "status": 200,
+    "final_url": "https://store.plusmember.jp/hinatazaka46/",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html"
+    ]
+  },
+  {
+    "url": "https://aobazaka46.com/",
+    "status": 200,
+    "final_url": "https://aobazaka46.com/",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/groups/aobazaka.html"
+    ]
+  },
+  {
+    "url": "https://shimojima.jp/shop/g/g4901755480856/",
+    "status": 200,
+    "final_url": "https://shimojima.jp/shop/g/g4901755480856/",
+    "content_type": "text/html; charset=utf-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/tools.html",
+      "sakamichi-yorimichi/tools/heiko-l-sleeve.html",
+      "sakamichi-yorimichi/notes/photo-sleeves.html"
+    ]
+  },
+  {
+    "url": "https://www.kingjim.co.jp/sp/favluv/",
+    "status": 200,
+    "final_url": "https://www.kingjim.co.jp/sp/favluv/",
+    "content_type": "text/html",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/tools.html",
+      "sakamichi-yorimichi/tools.html",
+      "sakamichi-yorimichi/tools/favluv-regular.html",
+      "sakamichi-yorimichi/tools/favluv-mini.html",
+      "sakamichi-yorimichi/notes/photo-storage.html",
+      "sakamichi-yorimichi/notes/storage-picks.html"
+    ]
+  },
+  {
+    "url": "https://www.kenko-tokina.co.jp/optics/binoculars/compactd/uvh/8x21dh_fmc_matbk.html",
+    "status": 200,
+    "final_url": "https://www.kenko-tokina.co.jp/optics/binoculars/compactd/uvh/8x21dh_fmc_matbk.html",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/index.html",
+      "sakamichi-yorimichi/tools.html",
+      "sakamichi-yorimichi/tools/kenko-8x21.html",
+      "sakamichi-yorimichi/notes/live-items-picks.html"
+    ]
+  },
+  {
+    "url": "https://sakurazaka46.com/s/s46/news/detail/O100093",
+    "status": 200,
+    "final_url": "https://sakurazaka46.com/s/s46/news/detail/O100093",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/groups/aobazaka.html"
+    ]
+  },
+  {
+    "url": "https://sakurazaka46.com/s/s46/media/list?dy=20261111&ima=0000",
+    "status": 200,
+    "final_url": "https://sakurazaka46.com/s/s46/media/list?dy=20261111&ima=0000",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html",
+      "sakamichi-yorimichi/notes/sakurazaka-live-first.html"
+    ]
+  },
+  {
+    "url": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+    "status": 200,
+    "final_url": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html",
+      "sakamichi-yorimichi/notes/live-items-picks.html",
+      "sakamichi-yorimichi/notes/hinatazaka-live-first.html",
+      "sakamichi-yorimichi/notes/news-20261111.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46.com/s/n46/news/detail/102395",
+    "status": 200,
+    "final_url": "https://www.nogizaka46.com/s/n46/news/detail/102395",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html",
+      "sakamichi-yorimichi/notes/nogizaka-live-first.html",
+      "sakamichi-yorimichi/notes/news-20261111.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46.com/s/n46/news/detail/102397",
+    "status": 200,
+    "final_url": "https://www.nogizaka46.com/s/n46/news/detail/102397",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html",
+      "sakamichi-yorimichi/notes/nogizaka-43-meet.html"
+    ]
+  },
+  {
+    "url": "https://sakurazaka46.com/s/s46/news/detail/S00229?ima=0000&link=ROBO004",
+    "status": 200,
+    "final_url": "https://sakurazaka46.com/s/s46/news/detail/S00229?ima=0000&link=ROBO004",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html"
+    ]
+  },
+  {
+    "url": "https://www.fortunemusic.jp/hinatazaka_202609/",
+    "status": 200,
+    "final_url": "https://www.fortunemusic.jp/hinatazaka_202609/",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html",
+      "sakamichi-yorimichi/notes/meet-greet-first.html"
+    ]
+  },
+  {
+    "url": "https://www.keyakizaka46.com/s/k46o/news/detail/O00220?ima=0000",
+    "status": 200,
+    "final_url": "https://www.keyakizaka46.com/s/k46o/news/detail/O00220?ima=0000",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/events-2026-2027.html",
+      "sakamichi-yorimichi/notes/keyaki-goods-care.html"
+    ]
+  },
+  {
+    "url": "https://fortunemusic.jp/nogizaka_202612/page/attention/",
+    "status": 200,
+    "final_url": "https://fortunemusic.jp/nogizaka_202612/page/attention/",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/online-meet-setup.html",
+      "sakamichi-yorimichi/notes/meet-talk-topics.html",
+      "sakamichi-yorimichi/notes/meet-greet-first.html"
+    ]
+  },
+  {
+    "url": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+    "status": 200,
+    "final_url": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/live-items-picks.html",
+      "sakamichi-yorimichi/notes/sakurazaka-live-first.html",
+      "sakamichi-yorimichi/notes/news-20261111.html"
+    ]
+  },
+  {
+    "url": "https://www.muji.com/jp/ja/store/search/cmdty/フォトアルバム",
+    "status": 200,
+    "final_url": "https://www.muji.com/content/maintenance_s_20261111.html",
+    "pages": [
+      "sakamichi-yorimichi/notes/photo-storage.html"
+    ]
+  },
+  {
+    "url": "https://www.fortunemusic.jp/nogizaka_202612/",
+    "status": 200,
+    "final_url": "https://www.fortunemusic.jp/nogizaka_202612/",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/nogizaka-43-meet.html",
+      "sakamichi-yorimichi/notes/meet-greet-first.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46.com/s/n46/page/43rd_single",
+    "status": 200,
+    "final_url": "https://www.nogizaka46.com/s/n46/page/43rd_single",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/nogizaka-43-meet.html",
+      "sakamichi-yorimichi/notes/real-meet-prep.html",
+      "sakamichi-yorimichi/notes/news-20261111.html"
+    ]
+  },
+  {
+    "url": "https://www.nogizaka46.com/s/n46/news/detail/101561",
+    "status": 200,
+    "final_url": "https://www.nogizaka46.com/s/n46/news/detail/101561",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/nogizaka-live-first.html"
+    ]
+  },
+  {
+    "url": "https://www.kingjim.co.jp/sp/flatty/standard/",
+    "status": 200,
+    "final_url": "https://www.kingjim.co.jp/sp/flatty/standard/",
+    "content_type": "text/html",
+    "pages": [
+      "sakamichi-yorimichi/notes/acsta-carry.html"
+    ]
+  },
+  {
+    "url": "https://sakurazaka46.com/s/s46/news/detail/E00700",
+    "status": 200,
+    "final_url": "https://sakurazaka46.com/s/s46/news/detail/E00700",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/sakura-6th-prep.html",
+      "sakamichi-yorimichi/notes/rain-kit.html"
+    ]
+  },
+  {
+    "url": "https://www.hinatazaka46.com/s/official/diary/event/list",
+    "status": 200,
+    "final_url": "https://www.hinatazaka46.com/s/official/diary/event/list",
+    "content_type": "text/html; charset=UTF-8",
+    "pages": [
+      "sakamichi-yorimichi/notes/real-meet-prep.html"
+    ]
+  },
+  {
+    "url": "https://www.vixen.co.jp/howtouse/binocular/",
+    "error": "HTTP Error 403: Forbidden",
+    "pages": [
+      "sakamichi-yorimichi/notes/binoculars.html",
+      "sakamichi-yorimichi/notes/live-kit.html"
+    ]
+  }
+]

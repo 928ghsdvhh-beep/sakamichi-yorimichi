@@ -1,0 +1,130 @@
+{
+  "authorization": "2026-11-15: user approved installation and subsequently requested Tracking ID correction to moon12-22. Original baseline retained. User confirmed FL5210-Y screenshot and supplied B0C6TDW8MG moon12-22 URL for installation. User confirmed FL5200-OR screenshot and supplied B0C6TCY9LW moon12-22 URL. 2026-11-16: user requested expansion of direct product links; reuse the three confirmed product URLs on relevant live/storage guides and tools hub. 2026-11-19: user requested relevant affiliate links sitewide, including event articles. Reused the same three approved links.",
+  "tracking_ids": [
+    "moon12-22"
+  ],
+  "html_sha256": {
+    "tools/kenko-8x21.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/binoculars.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/live-kit.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/live-items-picks.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "tools/favluv-regular.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "notes/photo-storage.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "notes/photo-sleeves.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "notes/storage-picks.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "tools/favluv-mini.html": [
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "notes/nogizaka-live-first.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/sakurazaka-live-first.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/hinatazaka-live-first.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/sakura-6th-prep.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/keyaki-goods-care.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "tools.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "size-check.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "index.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "checklist.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "notes/goods-20261116.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "notes/events-2026-2027.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9",
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "notes/real-meet-prep.html": [
+      "39c9c5c7d3efca46b745076ba4ec81fbe9905a73049d876aa8bc3c5cb9e85821"
+    ],
+    "goods/hinata-suzuka-holder25.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "goods/hinata-towel25.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "goods/nogi-summer24.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "goods/hinata-photo25.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "goods/nogi-photo-holder25.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "goods/nogi-photo-holder24.html": [
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "goods/sakura-member-pen2.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "goods/nogi-tour-towel24.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "goods/keyaki-pen18.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "goods/hinata-mini-nobori25.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4"
+    ],
+    "groups/keyakizaka.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "groups/hinatazaka.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "groups/nogizaka.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ],
+    "groups/sakurazaka.html": [
+      "a8057891f618ead10fd2fdc5211ab0b575525df646086d8adccae9d0c930e9e4",
+      "5fdb928fa9e90324ad3e73322facca7a7a07891fd13ab70a3ce82242144ae7d9"
+    ]
+  }
+}
