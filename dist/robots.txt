@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://sakamichi-yorimichi.pages.dev/sitemap.xml
