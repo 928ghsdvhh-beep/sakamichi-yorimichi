@@ -46,9 +46,9 @@ BODY = '''<div class="wrap edit-article">
 </dl>
 </figure>
 <h2 id="seat-found">座席が見えたら、どこへ向かう？</h2>
-<p>入口・ゲートが書かれていれば、会場へ着いたらそこを目印にします。入場後は、階やブロックに進み、列と番号を探します。会場の常設座席表は場所の確認に使えます。花道や機材の位置は公演ごとに変わるので、見え方を調べるときは公演別の公式案内を確認してください。</p>
+<p>入口・ゲートが書かれていれば、会場へ着いたらそこを目印にします。入場後は、階やブロックに進み、列と番号を探します。会場の常設座席表は場所の確認に使えます。</p>
 <section class="edit-sources"><h2>公式案内</h2><ul><li><a href="https://sakurazaka46.com/">櫻坂46公式サイト</a></li><li><a href="https://tixplus.jp/feature/sakurazaka46_dticket/">櫻坂46のチケプラ電子チケット受取ガイド</a></li><li><a href="https://qa.tixplus.jp/--6863cabd9f4638ca4d10f124">チケプラヘルプ｜座席番号はいつわかりますか？</a></li><li><a href="https://sakurazaka46.com/s/s46/ticket/detail/hono_graduation?ima=0000">櫻坂46公式｜田村保乃 卒業コンサートのチケット案内</a></li><li><a href="https://l-tike.com/e-tike/navi/guide/display_ticket.html/">ローチケ電子チケットの表示方法</a></li><li><a href="https://faq.l-tike.com/%E4%BA%88%E7%B4%84%E3%81%97%E3%81%9F%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%BA%A7%E5%B8%AD%E7%95%AA%E5%8F%B7%E3%82%92%E4%BA%8B%E5%89%8D%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F-672b34263649539ff3f0be1e">ローチケFAQ｜座席番号の確認</a></li></ul></section>
-<section class="edit-related"><h2>あわせて読みたい</h2><ul><li><a href="/notes/sakurazaka-live-first">櫻坂46ライブ初参戦ガイド</a></li><li><a href="/notes/binoculars">ライブ双眼鏡の8倍・10倍を比較</a></li></ul></section>
+<section class="edit-related"><h2>あわせて読みたい</h2><ul><li><a href="/notes/sakurazaka-live-first">櫻坂46ライブ初参戦ガイド</a></li></ul></section>
 </article></div>'''
 
 
