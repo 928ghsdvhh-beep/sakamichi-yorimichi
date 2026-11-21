@@ -26,7 +26,8 @@ BODY = '''<div class="wrap edit-article">
 <dt>発券・チケット表示開始</dt><dd>チケットを受け取る、またはアプリで開けるようになる日時。</dd>
 <dt><strong>座席表示開始</strong></dt><dd>ブロック・列・番号などが券面に表示される日時。公演によっては入場時に案内されます。</dd>
 </dl>
-<p>「発券」の日付しか見当たらない場合は、購入先の公演ページ・受取メール・受け取った券面も確認してください。田村保乃 卒業コンサートのように、公演ごとに公式のチケット案内があります。</p>
+<p>「発券」の日付しか見当たらない場合は、購入先の公演ページ・受取メール・受け取った券面も確認してください。</p>
+<section class="callout"><h3>田村保乃 卒業コンサートの座席番号はいつわかる？</h3><p><strong>11月21日確認時点で、公式の先行受付案内には座席番号の表示日時が記載されていません。</strong> この公演の先行受付では電子チケットにチケプラを使います。チケットを受け取ったら、チケプラの券面にある「座席表示日」を確認してください。</p><p><a href="https://sakurazaka46.com/s/s46/news/detail/E00707">田村保乃 卒業コンサートの公式先行受付案内</a></p></section>
 <h2 id="ticket-missing">チケット自体が見当たらない</h2>
 <p>購入履歴や受取メールで、<strong>指定アプリ</strong>と<strong>チケット表示開始日時</strong>を確認します。ローチケで購入しても、受け取るアプリがチケプラなど別のサービスになる公演があります。指定のアプリを開き、申込時の情報で受け取ってください。</p>
 <p>チケプラで受け取る場合は、申込時に登録したPlus member IDと電話番号の端末を確認します。案内メールが見つからなければ、登録メールアドレスの迷惑メールフォルダも確認してください。</p>
@@ -47,7 +48,7 @@ BODY = '''<div class="wrap edit-article">
 </figure>
 <h2 id="seat-found">座席が見えたら、どこへ向かう？</h2>
 <p>入口・ゲートが書かれていれば、会場へ着いたらそこを目印にします。入場後は、階やブロックに進み、列と番号を探します。会場の常設座席表は場所の確認に使えます。</p>
-<section class="edit-sources"><h2>公式案内</h2><ul><li><a href="https://sakurazaka46.com/">櫻坂46公式サイト</a></li><li><a href="https://tixplus.jp/feature/sakurazaka46_dticket/">櫻坂46のチケプラ電子チケット受取ガイド</a></li><li><a href="https://qa.tixplus.jp/--6863cabd9f4638ca4d10f124">チケプラヘルプ｜座席番号はいつわかりますか？</a></li><li><a href="https://sakurazaka46.com/s/s46/ticket/detail/hono_graduation?ima=0000">櫻坂46公式｜田村保乃 卒業コンサートのチケット案内</a></li><li><a href="https://l-tike.com/e-tike/navi/guide/display_ticket.html/">ローチケ電子チケットの表示方法</a></li><li><a href="https://faq.l-tike.com/%E4%BA%88%E7%B4%84%E3%81%97%E3%81%9F%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%BA%A7%E5%B8%AD%E7%95%AA%E5%8F%B7%E3%82%92%E4%BA%8B%E5%89%8D%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F-672b34263649539ff3f0be1e">ローチケFAQ｜座席番号の確認</a></li></ul></section>
+<section class="edit-sources"><h2>公式案内</h2><ul><li><a href="https://sakurazaka46.com/">櫻坂46公式サイト</a></li><li><a href="https://tixplus.jp/feature/sakurazaka46_dticket/">櫻坂46のチケプラ電子チケット受取ガイド</a></li><li><a href="https://qa.tixplus.jp/--6863cabd9f4638ca4d10f124">チケプラヘルプ｜座席番号はいつわかりますか？</a></li><li><a href="https://sakurazaka46.com/s/s46/ticket/detail/hono_graduation?ima=0000">櫻坂46公式｜田村保乃 卒業コンサートのチケット案内</a></li><li><a href="https://cdn-org.l-tike.com/e-tike/navi/guide/display_ticket.html">ローチケ電子チケットの表示方法</a></li><li><a href="https://faq.l-tike.com/%E4%BA%88%E7%B4%84%E3%81%97%E3%81%9F%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%BA%A7%E5%B8%AD%E7%95%AA%E5%8F%B7%E3%82%92%E4%BA%8B%E5%89%8D%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F-672b34263649539ff3f0be1e">ローチケFAQ｜座席番号の確認</a></li></ul></section>
 <section class="edit-related"><h2>あわせて読みたい</h2><ul><li><a href="/notes/sakurazaka-live-first">櫻坂46ライブ初参戦ガイド</a></li></ul></section>
 </article></div>'''
 
