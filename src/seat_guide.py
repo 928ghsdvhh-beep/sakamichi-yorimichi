@@ -83,4 +83,5 @@ def apply(out):
     sitemap = out / 'sitemap.xml'
     xml = sitemap.read_text()
     old_item = f'<url><loc>{old_url}</loc></url>\n'
-    sitemap.write_text(xml.replace(old_item, old_item + f'<url><loc>{url}</loc></url>\n', 1))
+    if f'<loc>{url}</loc>' not in xml:
+        sitemap.write_text(xml.replace(old_item, old_item + f'<url><loc>{url}</loc></url>\n', 1))
