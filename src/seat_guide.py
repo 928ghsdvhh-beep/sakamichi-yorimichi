@@ -4,7 +4,7 @@ from html import escape
 
 SLUG = 'sakurazaka-seat-display'
 TITLE = '櫻坂46ライブの座席はいつわかる？電子チケットの表示日時の調べ方'
-DESCRIPTION = '櫻坂46のライブで、電子チケットは受け取れたのに座席が出ないときの確認順。受付案内のどこを見ればよいか、表示前と表示後に分けて図解します。'
+DESCRIPTION = '櫻坂46のライブで、電子チケットは受け取れたのに座席番号が表示されないときの確認順。受付案内のどこを見ればよいか、表示前と表示後に分けて図解します。'
 LINK = f'<a href="/notes/{SLUG}">{TITLE}</a>'
 BODY = '''<div class="wrap edit-article">
 <nav class="edit-breadcrumb" aria-label="パンくず"><a href="/">ホーム</a> / <a href="/articles">推し活記事</a> / 櫻坂46</nav>
@@ -16,15 +16,15 @@ BODY = '''<div class="wrap edit-article">
 <ul class="seat-paths">
 <li><a href="#ticket-missing">チケットが見当たらない</a><span>まず受取案内とチケット表示開始を確認</span></li>
 <li><a href="#seat-missing">公演名は出ているが、席がない</a><span>券面や購入先の案内で座席表示日を確認</span></li>
-<li><a href="#seat-found">席が出ている</a><span>ゲート・ブロック・列・番号を確認</span></li>
+<li><a href="#seat-found">座席番号が表示されている</a><span>ゲート・ブロック・列・番号を確認</span></li>
 </ul>
 </figure>
-<h2>チケットが届く日と、席が見える日は別々に確認</h2>
+<h2>電子チケットの受取開始日と座席番号の表示日を確認</h2>
 <p>櫻坂46公式の公演特設ページを開き、申込履歴と同じ公演日・受付（FC先行、一般発売など）の案内へ進みます。ページ内検索で「座席表示」「発券」「電子チケット」を探すと、どの日時か見分けやすくなります。</p>
 <dl class="seat-terms">
 <dt>当落発表</dt><dd>申し込みの結果がわかる日時。</dd>
 <dt>発券・チケット表示開始</dt><dd>チケットを受け取る、またはアプリで開けるようになる日時。</dd>
-<dt><strong>座席表示開始</strong></dt><dd>ブロック・列・番号などが見えるようになる日時。公演によっては入場時に案内されます。</dd>
+<dt><strong>座席表示開始</strong></dt><dd>ブロック・列・番号などが券面に表示される日時。公演によっては入場時に案内されます。</dd>
 </dl>
 <p>「発券」の日付しか見当たらない場合は、購入先の公演ページ・受取メール・受け取った券面も確認してください。田村保乃 卒業コンサートのように、公演ごとに公式のチケット案内があります。</p>
 <h2 id="ticket-missing">チケット自体が見当たらない</h2>
