@@ -288,10 +288,10 @@ footer p{font-size:9px;line-height:1.8}
 '''
 
 CSS += """
-/* Small editorial photographs accompany storage guidance. */
-.storage-editorial{width:min(100%,360px);margin:18px 0 24px}
-.storage-editorial img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:8px}
-.storage-editorial figcaption{font-size:10px;line-height:1.7;color:#8c7e94;margin-top:5px}
+/* Editorial images keep their original proportions. */
+.storage-editorial{width:min(100%,560px);margin:22px 0 26px}
+.storage-editorial img{display:block;width:100%;height:auto;border-radius:8px}
+.storage-editorial figcaption{font-size:11px;line-height:1.6;color:#716477;margin-top:7px}
 .edit-thumb-photo{display:block;width:88px;height:105px;object-fit:cover;border-radius:5px}
-@media(max-width:700px){.storage-editorial{width:min(100%,260px)}.edit-thumb-photo{width:64px;height:76px}}
+@media(max-width:700px){.edit-thumb-photo{width:64px;height:76px}}
 """

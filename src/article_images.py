@@ -61,27 +61,18 @@ def _after_lead(path, figure):
     if count != 1: raise RuntimeError(f'Expected one article lead: {path.name}')
     path.write_text(text)
 
-def _after_hero(path, figure):
+def _in_hero(path, figure):
     text = path.read_text()
-    start = text.find('<section class="fan-hero wrap"')
-    if start < 0: raise RuntimeError('Expected fan-hero section: index')
-    depth = 0
-    for m in re.finditer(r'<section\b|</section>', text[start:]):
-        if m[0].startswith('</'):
-            depth -= 1
-            if depth == 0:
-                end = start + m.end()
-                path.write_text(text[:end]+figure+text[end:])
-                return
-        else:
-            depth += 1
-    raise RuntimeError('Unbalanced fan-hero section: index')
+    board = '<div class="fan-board">'
+    if text.count(board) != 1:
+        raise RuntimeError('Expected one fan board: index')
+    path.write_text(text.replace(board, figure + board, 1))
 
 def apply(out):
     for slug, (image, alt, caption) in NOTE_IMAGES.items():
         _after_lead(out/'notes'/f'{slug}.html', _figure(image, 960, 542, alt, caption))
     _after_lead(out/'notes'/'storage-picks.html', STORAGE_FIGURE)
-    _after_hero(out/'index.html', TOP_FIGURE)
+    _in_hero(out/'index.html', TOP_FIGURE)
     for path in out.rglob('*.html'):
         text = path.read_text()
         # Storage only: never use this generic image for unrelated news or live equipment.
