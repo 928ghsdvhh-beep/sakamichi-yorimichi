@@ -1,6 +1,6 @@
-"""Add clearly labelled generated images to the guide notes and the top page.
+"""Add clearly labelled generated images to the guide notes.
 
-The 10 new illustrations are embedded as data: URIs (bytes in
+The guide illustrations are embedded as data: URIs (bytes in
 article_image_data.py) instead of /<name>.webp file references, because the
 GitHub connector accepts UTF-8 text only and cannot push binary files, and
 the user stopped the browser-upload route. storage-editorial.webp stays a
@@ -51,28 +51,16 @@ NOTE_IMAGES = {
 # storage-picks keeps the generic storage image it has always used.
 STORAGE_FIGURE = '<figure class="storage-editorial"><img src="/storage-editorial.webp" width="960" height="640" alt="スリーブ入りカードと透明ポケット、定規を並べた収納準備のイメージ" loading="lazy" decoding="async"><figcaption>AI生成の収納イメージ。特定の商品や実物のグッズではありません。</figcaption></figure>'
 
-TOP_FIGURE = _figure('oshikatsu-editorial.webp', 960, 540,
-    'カードを入れたバインダーとアクスタ、ペンライトを並べた推し活のイメージ',
-    'AI生成の推し活イメージ。特定の商品や実物のグッズではありません。')
-
 def _after_lead(path, figure):
     text = path.read_text()
     text, count = re.subn(r'(<p class="lead">.*?</p>)', lambda m: m[0]+figure, text, count=1, flags=re.S)
     if count != 1: raise RuntimeError(f'Expected one article lead: {path.name}')
     path.write_text(text)
 
-def _in_hero(path, figure):
-    text = path.read_text()
-    board = '<div class="fan-board">'
-    if text.count(board) != 1:
-        raise RuntimeError('Expected one fan board: index')
-    path.write_text(text.replace(board, figure + board, 1))
-
 def apply(out):
     for slug, (image, alt, caption) in NOTE_IMAGES.items():
         _after_lead(out/'notes'/f'{slug}.html', _figure(image, 960, 542, alt, caption))
     _after_lead(out/'notes'/'storage-picks.html', STORAGE_FIGURE)
-    _in_hero(out/'index.html', TOP_FIGURE)
     for path in out.rglob('*.html'):
         text = path.read_text()
         # Storage only: never use this generic image for unrelated news or live equipment.
